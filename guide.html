@@ -1,0 +1,72 @@
+<!--
+      JavaScript 7th Edition
+      Chapter 1
+      Indivdual Project
+
+      Author: Bre Ruckle
+      Date:   03/01/2026
+
+      Filename: guide.html
+   -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="stylesheet" href="styles.css">
+        <title>Bird Guide</title>
+        <script src="java.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="guide-page">
+        <div class="content">
+    <header>
+        <div id="nav-placeholder"></div>
+    </header>
+
+    <main class="content-card">
+        <h2>A Closer Look at Missouri’s Native Species</h2>
+        <p>
+            This Bird Guide introduces a variety of native Missouri bird species found across 
+            the state’s diverse landscapes. From colorful songbirds in forest canopies to waterfowl 
+            in wetlands and raptors soaring above open prairies, Missouri provides habitat for an 
+            impressive range of birds throughout the year.
+        </p>
+        <p>
+            This section will explore key identification features, behaviors, and habitats of 
+            common native species. As the site expands, detailed profiles will provide additional 
+            information about appearance, diet, nesting habits, and seasonal movement patterns.
+        </p>
+
+        <h3>Bird Color Finder</h3>
+        <p>Select the main color you noticed on a bird to find a possible match.</p>
+
+        <label for="colorChoice">Choose the main color you saw:</label>
+        <select id="colorChoice">
+            <option value="">Select a color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="brown">Brown</option>
+            <option value="black">Black</option>
+            <option value="orange">Orange</option> 
+            <option value="blackwhite">Black and White</option>
+        </select>
+    <p id="birdResult"></p>
+    <img id="birdImage" alt="Bird image" style="display:none;">
+
+            <h3>Missouri Bird Index</h3>
+            <div id="birdContainer" class="bird-grid"></div>
+</div>
+    </main>
+    <footer>
+        Bre Ruckle | Missouri Ornithology Project | © 2026
+    </footer>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <script src="java.js" defer></script>
+    <title>Habitats and Seasons</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="habitats-page">
+
+<div class="content">
+
+<header>
+
+
+    <nav>
+        <img src="images/navlogo.png" alt="Site Logo" id="navLogo">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li class="has-submenu">
+                <a href="guide.html">Bird Guide</a>
+                <ul class="submenu">
+                    <li><a href="#">Songbirds</a></li>
+                    <li><a href="#">Raptors</a></li>
+                    <li><a href="#">Waterfowl</a></li>
+                </ul>
+            </li>
+
+            <li class="has-submenu">
+                <a href="habitats.html">Habitats and Seasons</a>
+                <ul class="submenu">
+                    <li><a href="forests.html">Forests</a></li>
+                    <li><a href="wetlands.html">Wetlands</a></li>
+                    <li><a href="prairies.html">Prairies</a></li>
+                </ul>
+            </li>
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="security.html">Staying Safe</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main class="content-card">
+
+    <h2>Understanding Where Birds Live and When They Migrate</h2>
+
+    <p>
+    Missouri’s varied geography creates a wide range of habitats that support native bird populations. 
+    Forests, prairies, wetlands, rivers, and urban green spaces each provide essential resources such 
+    as food, shelter, and nesting areas. These environments work together to support both year-round 
+    resident birds and seasonal migratory species that pass through the region.
+    </p>
+
+    <p>
+    Seasonal changes strongly influence bird behavior across the state. Migration patterns, breeding 
+    cycles, and feeding habits shift throughout the year, making Missouri an important location for 
+    observing a diverse range of bird species. During spring and fall, many birds use Missouri as a 
+    critical stopover point, allowing birdwatchers to see species that may not stay year-round.
+    </p>
+
+    <p>
+        By understanding how habitats and seasons affect bird activity, you can improve your chances of 
+        spotting different species and better appreciate the natural environments they depend on. Whether 
+        you are exploring forests, wetlands, or open prairies, each habitat offers unique opportunities 
+        to observe birds in their natural surroundings.
+    </p>
+
+<!-- FORM -->
+<section class="form-section">
+
+<div class="form-info">
+    <h2>Report a Bird Sighting</h2>
+    <p>
+        Use this form to record a bird sighting and help track where different bird species 
+        are seen across Missouri. Submitting accurate observations helps build a better 
+        understanding of bird activity, migration patterns, and habitat use.
+    </p>
+
+    <p>
+        Try to include as much detail as possible, including the location, date, and number 
+        of birds observed. Clear and consistent data makes it easier to identify trends and 
+        contributes to a more complete picture of bird populations in your area.
+    </p>
+</div>
+
+<form id="BirdSighting" class="form-box">
+
+    <div class="form-row">
+        <input type="text" id="birdName" name="birdName" placeholder="Bird Name">
+
+        <!-- UPDATED with pattern validation -->
+        <input 
+            type="text" 
+            id="location" 
+            name="location" 
+            placeholder="City, ST"
+            pattern="^[A-Za-z\s]+,\s*(?:[A-Za-z]{2}|[A-Za-z\s]+)$"
+            title="Enter location like Springfield, MO or Columbia, Missouri"
+        >
+    </div>
+
+    <div class="form-row">
+        <input type="date" id="dateSeen" name="dateSeen">
+        <input type="number" id="numberOfBirds" name="numberOfBirds" placeholder="Number of Birds">
+    </div>
+
+    <textarea id="notes" name="notes" placeholder="Notes (optional)"></textarea>
+
+    <button type="submit">Submit Sighting</button>
+
+    <p id="error"></p>
+    <p id="result"></p>
+
+</form>
+
+</section>
+
+</main>
+
+    <footer>
+        Bre Ruckle | Missouri Ornithology Project | © 2026
+    </footer>
+
+</div>
+</body>
+</html>
