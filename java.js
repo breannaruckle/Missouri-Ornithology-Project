@@ -295,8 +295,7 @@ let birds = [];
 fetch("birds.json")
   .then(res => res.json())
   .then(data => {
-    birds = data;
-    displayBirds(birds);
+    displayBirds(data);
   });
 
 
