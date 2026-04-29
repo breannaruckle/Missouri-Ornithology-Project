@@ -14,33 +14,28 @@
 */
 
 
+/*
+  Bird Website JavaScript File
+*/
+
 // ==========================
 // SEED COST CALCULATOR
 // ==========================
 
-// Get the calculator form from the page
 let form = document.getElementById("SeedCalculator");
 
-// Only run this code if the form exists (prevents errors on other pages)
 if (form) {
     form.addEventListener("submit", runCalculator);
 }
 
-/**
- * Calculates total seed cost when form is submitted
- */
 function runCalculator(event) {
-    // Prevent page refresh so we can show results
     event.preventDefault();
 
-    // Get user input and convert to numbers
     let pounds = Number(document.getElementById("seedPounds").value);
     let price = Number(document.getElementById("pricePerPound").value);
 
-    // Multiply to get total cost
     let total = pounds * price;
 
-    // Display result to the user
     document.getElementById("calcResult").textContent =
         "Total cost: $" + total;
 }
@@ -50,24 +45,18 @@ function runCalculator(event) {
 // BIRD IDENTIFIER (COLOR)
 // ==========================
 
-// Get dropdown menu
 let colorMenu = document.getElementById("colorChoice");
 
-// Run function when user selects a color
 if (colorMenu) {
     colorMenu.addEventListener("change", identifyBird);
 }
 
-/**
- * Matches a bird based on selected color
- */
 function identifyBird() {
     let color = document.getElementById("colorChoice").value;
 
     let birdResult = document.getElementById("birdResult");
     let birdImage = document.getElementById("birdImage");
 
-    // Each condition checks the selected color and displays a matching bird
     if (color === "red") {
         birdResult.textContent = "Possible Match: Northern Cardinal";
         birdImage.src = "images/northerncardinal.jpg";
@@ -104,187 +93,202 @@ function identifyBird() {
         birdImage.style.display = "block";
 
     } else {
-        // Reset if nothing selected
         birdResult.textContent = "Please select a color to identify a bird.";
         birdImage.src = "";
         birdImage.style.display = "none";
     }
 }
 
+const specificTaxonomy = {
 
-// ==========================
-// AUTO-FORMAT LOCATION INPUT
-// ==========================
+  // Songbirds / Passeriformes
+  "Northern Cardinal": { order: "Passeriformes", family: "Cardinalidae" },
+  "Blue Jay": { order: "Passeriformes", family: "Corvidae" },
+  "American Robin": { order: "Passeriformes", family: "Turdidae" },
+  "House Sparrow": { order: "Passeriformes", family: "Passeridae" },
+  "European Starling": { order: "Passeriformes", family: "Sturnidae" },
 
-// Get the location input field from the bird sighting form
-// This field is where the user types a city and state
-let locationInputField = document.getElementById("location");
+  "American Crow": { order: "Passeriformes", family: "Corvidae" },
+  "Fish Crow": { order: "Passeriformes", family: "Corvidae" },
 
-// Only add the event listener if the field exists on the page
-// This prevents errors on pages that do not use the sighting form
-if (locationInputField) {
-    locationInputField.addEventListener("input", autoFormatLocation);
-}
+  "Baltimore Oriole": { order: "Passeriformes", family: "Icteridae" },
+  "Orchard Oriole": { order: "Passeriformes", family: "Icteridae" },
+  "Red-winged Blackbird": { order: "Passeriformes", family: "Icteridae" },
+  "Common Grackle": { order: "Passeriformes", family: "Icteridae" },
+  "Great-tailed Grackle": { order: "Passeriformes", family: "Icteridae" },
+  "Brown-headed Cowbird": { order: "Passeriformes", family: "Icteridae" },
+  "Bobolink": { order: "Passeriformes", family: "Icteridae" },
+  "Rusty Blackbird": { order: "Passeriformes", family: "Icteridae" },
+  "Yellow-headed Blackbird": { order: "Passeriformes", family: "Icteridae" },
 
-/**
- * Automatically formats the location field while the user types
- *
- * Goal:
- * - Keep only letters, spaces, and commas
- * - Capitalize city words nicely
- * - Make the state part uppercase if the user enters an abbreviation
- *
- * Examples:
- * - "springfield, mo" becomes "Springfield, MO"
- * - "saint louis, missouri" becomes "Saint Louis, MISSOURI"
- *
- * Note:
- * This function helps guide the user toward a clean format,
- * but the actual validation still happens in the form submission check.
- */
-function autoFormatLocation() {
-    let value = locationInputField.value;
+  "House Finch": { order: "Passeriformes", family: "Fringillidae" },
+  "American Goldfinch": { order: "Passeriformes", family: "Fringillidae" },
+  "Pine Siskin": { order: "Passeriformes", family: "Fringillidae" },
+  "Evening Grosbeak": { order: "Passeriformes", family: "Fringillidae" },
+  "Purple Finch": { order: "Passeriformes", family: "Fringillidae" },
 
-    // Remove anything that is not a letter, comma, or space
-    // This keeps numbers and special symbols out of the location field
-    value = value.replace(/[^A-Za-z,\s]/g, "");
+  "Rose-breasted Grosbeak": { order: "Passeriformes", family: "Cardinalidae" },
+  "Blue Grosbeak": { order: "Passeriformes", family: "Cardinalidae" },
+  "Indigo Bunting": { order: "Passeriformes", family: "Cardinalidae" },
+  "Scarlet Tanager": { order: "Passeriformes", family: "Cardinalidae" },
+  "Summer Tanager": { order: "Passeriformes", family: "Cardinalidae" },
+  "Dickcissel": { order: "Passeriformes", family: "Cardinalidae" },
 
-    // Split the text into two parts using the comma
-    // Part 1 should be the city
-    // Part 2 should be the state
-    let parts = value.split(",");
+  "Eastern Bluebird": { order: "Passeriformes", family: "Turdidae" },
 
-    if (parts.length === 1) {
-        // If the user has only typed the city so far,
-        // capitalize the first letter of each word
-        value = parts[0]
-            .toLowerCase()
-            .replace(/\b\w/g, c => c.toUpperCase());
+  "Carolina Wren": { order: "Passeriformes", family: "Troglodytidae" },
+  "House Wren": { order: "Passeriformes", family: "Troglodytidae" },
+  "Marsh Wren": { order: "Passeriformes", family: "Troglodytidae" },
+  "Winter Wren": { order: "Passeriformes", family: "Troglodytidae" },
 
-    } else if (parts.length >= 2) {
-        // Format the city nicely
-        let city = parts[0]
-            .toLowerCase()
-            .replace(/\b\w/g, c => c.toUpperCase())
-            .trim();
+  "Black-capped Chickadee": { order: "Passeriformes", family: "Paridae" },
+  "Carolina Chickadee": { order: "Passeriformes", family: "Paridae" },
+  "Tufted Titmouse": { order: "Passeriformes", family: "Paridae" },
 
-        // Clean up the state portion
-        let state = parts[1].trim();
+  "White-breasted Nuthatch": { order: "Passeriformes", family: "Sittidae" },
+  "Red-breasted Nuthatch": { order: "Passeriformes", family: "Sittidae" },
 
-        // If the state is only 2 letters long,
-        // treat it like an abbreviation and make it uppercase
-        if (state.length <= 2) {
-            state = state.toUpperCase();
-        } else {
-            // Otherwise, treat it like a full state name
-            // and capitalize each word normally
-            state = state
-                .toLowerCase()
-                .replace(/\b\w/g, c => c.toUpperCase());
-        }
+  "Warbling Vireo": { order: "Passeriformes", family: "Vireonidae" },
+  "Bell’s Vireo": { order: "Passeriformes", family: "Vireonidae" },
 
-        // Put the city and state back together in a clean format
-        value = city + ", " + state;
-    }
+  "Common Yellowthroat": { order: "Passeriformes", family: "Parulidae" },
+  "Yellow Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Yellow-rumped Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Blackpoll Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Tennessee Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Nashville Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Chestnut-sided Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Wilson’s Warbler": { order: "Passeriformes", family: "Parulidae" },
+  "Cape May Warbler": { order: "Passeriformes", family: "Parulidae" },
 
-    // Update the input box with the cleaned and formatted version
-    locationInputField.value = value;
-}
+  "Cedar Waxwing": { order: "Passeriformes", family: "Bombycillidae" },
+  "Brown Creeper": { order: "Passeriformes", family: "Certhiidae" },
+  "Loggerhead Shrike": { order: "Passeriformes", family: "Laniidae" },
 
+  "Eastern Towhee": { order: "Passeriformes", family: "Passerellidae" },
+  "Dark-eyed Junco": { order: "Passeriformes", family: "Passerellidae" },
+  "Chipping Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "White-throated Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "White-crowned Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Harris’s Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Lincoln’s Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Clay-colored Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Henslow’s Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Grasshopper Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Vesper Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "Lark Sparrow": { order: "Passeriformes", family: "Passerellidae" },
+  "LeConte’s Sparrow": { order: "Passeriformes", family: "Passerellidae" },
 
-// ==========================
-// BIRD SIGHTING FORM
-// ==========================
+  // Raptors & Owls
+  "Bald Eagle": { order: "Accipitriformes", family: "Accipitridae" },
+  "Red-tailed Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Northern Harrier": { order: "Accipitriformes", family: "Accipitridae" },
+  "Cooper’s Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Sharp-shinned Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Broad-winged Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Swainson’s Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Ferruginous Hawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Golden Eagle": { order: "Accipitriformes", family: "Accipitridae" },
+  "Northern Goshawk": { order: "Accipitriformes", family: "Accipitridae" },
+  "Rough-legged Hawk": { order: "Accipitriformes", family: "Accipitridae" },
 
-// Get form element
-let birdSighting = document.getElementById("BirdSighting");
+  "American Kestrel": { order: "Falconiformes", family: "Falconidae" },
+  "Peregrine Falcon": { order: "Falconiformes", family: "Falconidae" },
 
-if (birdSighting) {
-    birdSighting.addEventListener("submit", birdSightingForm);
-}
+  "Turkey Vulture": { order: "Cathartiformes", family: "Cathartidae" },
+  "Black Vulture": { order: "Cathartiformes", family: "Cathartidae" },
 
-/**
- * Validates bird sighting form input
- */
-function birdSightingForm(event) {
-    event.preventDefault();
+  "Osprey": { order: "Accipitriformes", family: "Pandionidae" },
 
-    let birdName = document.getElementById("birdName").value.trim();
-    let location = document.getElementById("location").value.trim();
-    let dateSeen = document.getElementById("dateSeen").value.trim();
-    let numberOfBirds = Number(document.getElementById("numberOfBirds").value);
-    let notes = document.getElementById("notes").value;
+  "Great Horned Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Barred Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Eastern Screech Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Snowy Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Short-eared Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Northern Saw-whet Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Long-eared Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Burrowing Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Great Gray Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Elf Owl": { order: "Strigiformes", family: "Strigidae" },
+  "Barn Owl": { order: "Strigiformes", family: "Tytonidae" },
 
-    let error = document.getElementById("error");
-    let result = document.getElementById("result");
+  // Woodpeckers
+  "Downy Woodpecker": { order: "Piciformes", family: "Picidae" },
+  "Hairy Woodpecker": { order: "Piciformes", family: "Picidae" },
+  "Red-bellied Woodpecker": { order: "Piciformes", family: "Picidae" },
+  "Northern Flicker": { order: "Piciformes", family: "Picidae" },
+  "Pileated Woodpecker": { order: "Piciformes", family: "Picidae" },
+  "Red-headed Woodpecker": { order: "Piciformes", family: "Picidae" },
+  "Yellow-bellied Sapsucker": { order: "Piciformes", family: "Picidae" },
 
-    // Clear previous messages
-    error.textContent = "";
-    result.textContent = "";
+  // Waterfowl / Aquatic
+  "Mallard": { order: "Anseriformes", family: "Anatidae" },
+  "Canada Goose": { order: "Anseriformes", family: "Anatidae" },
+  "Wood Duck": { order: "Anseriformes", family: "Anatidae" },
+  "Lesser Scaup": { order: "Anseriformes", family: "Anatidae" },
+  "Ruddy Duck": { order: "Anseriformes", family: "Anatidae" },
+  "Black-bellied Whistling-Duck": { order: "Anseriformes", family: "Anatidae" },
 
-    // This pattern allows:
-    // - City, ST
-    // - City, State
-    // Examples:
-    // - Springfield, MO
-    // - Columbia, Missouri
-    let locationPattern = /^[A-Za-z\s]+,\s*(?:[A-Za-z]{2}|[A-Za-z\s]+)$/;
+  "Trumpeter Swan": { order: "Anseriformes", family: "Anatidae" },
+  "Tundra Swan": { order: "Anseriformes", family: "Anatidae" },
 
-    try {
-        if (birdName === "" || location === "") {
-            throw "Please fill in all required fields";
-        }
+  "Pied-billed Grebe": { order: "Podicipediformes", family: "Podicipedidae" },
+  "Horned Grebe": { order: "Podicipediformes", family: "Podicipedidae" },
 
-        if (dateSeen === "") {
-            throw "Please select a date";
-        }
+  "Common Loon": { order: "Gaviiformes", family: "Gaviidae" },
 
-        if (/\d/.test(birdName)) {
-            throw "Bird Name cannot contain numbers";
-        }
+  "American Coot": { order: "Gruiformes", family: "Rallidae" },
+  "Sora": { order: "Gruiformes", family: "Rallidae" },
 
-        // Make sure the location matches the required format
-        if (!locationPattern.test(location)) {
-            throw "Enter location as City, ST or City, State";
-        }
+  "Sandhill Crane": { order: "Gruiformes", family: "Gruidae" },
+  "Whooping Crane": { order: "Gruiformes", family: "Gruidae" },
 
-        if (birdName.length < 3) {
-            throw "Bird name must be at least 3 characters";
-        }
+  // Shorebirds / Waders
+  "Great Blue Heron": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Great Egret": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Green Heron": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Black-crowned Night Heron": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Yellow-crowned Night Heron": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Snowy Egret": { order: "Pelecaniformes", family: "Ardeidae" },
+  "Cattle Egret": { order: "Pelecaniformes", family: "Ardeidae" },
 
-        if (notes.length > 200) {
-            throw "Notes must be under 200 characters";
-        }
+  "White Ibis": { order: "Pelecaniformes", family: "Threskiornithidae" },
+  "Glossy Ibis": { order: "Pelecaniformes", family: "Threskiornithidae" },
 
-        if (isNaN(numberOfBirds) || numberOfBirds <= 0) {
-            throw "Number of birds must be greater than zero";
-        }
+  "Killdeer": { order: "Charadriiformes", family: "Charadriidae" },
+  "Spotted Sandpiper": { order: "Charadriiformes", family: "Scolopacidae" },
+  "Least Sandpiper": { order: "Charadriiformes", family: "Scolopacidae" },
 
-        result.textContent = "Sighting recorded successfully";
+  // Gulls & Terns
+  "Ring-billed Gull": { order: "Charadriiformes", family: "Laridae" },
+  "Herring Gull": { order: "Charadriiformes", family: "Laridae" },
+  "Bonaparte’s Gull": { order: "Charadriiformes", family: "Laridae" },
+  "Common Tern": { order: "Charadriiformes", family: "Laridae" },
+  "Forster’s Tern": { order: "Charadriiformes", family: "Laridae" },
+  "Black Tern": { order: "Charadriiformes", family: "Laridae" },
 
-    } catch (err) {
-        error.textContent = err;
-    }
-}
+  // Misc
+  "Belted Kingfisher": { order: "Coraciiformes", family: "Alcedinidae" },
+  "Ruby-throated Hummingbird": { order: "Apodiformes", family: "Trochilidae" },
+  "Chimney Swift": { order: "Apodiformes", family: "Apodidae" },
+  "Common Nighthawk": { order: "Caprimulgiformes", family: "Caprimulgidae" },
+  "Chuck-will's-widow": { order: "Caprimulgiformes", family: "Caprimulgidae" },
+  "Whip-poor-will": { order: "Caprimulgiformes", family: "Caprimulgidae" },
 
+  // Gamebirds
+  "Wild Turkey": { order: "Galliformes", family: "Phasianidae" },
+  "Northern Bobwhite": { order: "Galliformes", family: "Odontophoridae" },
 
-// ==========================
-// DEVICE INFO
-// ==========================
+  // Other
+  "Rock Pigeon": { order: "Columbiformes", family: "Columbidae" },
+  "Monk Parakeet": { order: "Psittaciformes", family: "Psittacidae" }
 
-// Displays info about user's browser/device
-let deviceInfo = document.getElementById("deviceInfo");
+};
 
-if (deviceInfo) {
-    deviceInfo.innerHTML =
-        "Browser Name: " + navigator.appName + "<br>" +
-        "Browser Version: " + navigator.appVersion + "<br>" +
-        "Language: " + navigator.language + "<br>" +
-        "Platform: " + navigator.platform + "<br>" +
-        "Screen Width: " + screen.width + "<br>" +
-        "Screen Height: " + screen.height;
-}
-
+const fallbackTaxonomy = {
+  order: "Unknown",
+  family: "Unknown"
+};
 
 // ==========================
 // BIRD DATA
@@ -295,25 +299,37 @@ let birds = [];
 fetch("birds.json")
   .then(res => res.json())
   .then(data => {
-    displayBirds(data);
+
+    // 🔥 APPLY TAXONOMY HERE
+    birds = data.map(bird => {
+
+      if (specificTaxonomy[bird.name]) {
+        bird.order = specificTaxonomy[bird.name].order;
+        bird.family = specificTaxonomy[bird.name].family;
+      } else {
+        bird.order = bird.order || fallbackTaxonomy.order;
+        bird.family = bird.family || fallbackTaxonomy.family;
+      }
+
+      return bird;
+    });
+
+    // 🔥 THEN DISPLAY
+    displayBirds(birds);
+    populateFamilyFilter(birds);
+    document.getElementById("searchInput").addEventListener("input", filterBirds);
+    document.getElementById("typeFilter").addEventListener("change", filterBirds);
+    document.getElementById("familyFilter").addEventListener("change", filterBirds);
   });
-
-
 
 // ==========================
 // DISPLAY BIRDS
 // ==========================
 
-/**
- * Displays bird cards on the page
- */
 function displayBirds(birdList) {
     let container = document.getElementById("birdContainer");
-
-    // Stop immediately if this page does not contain the bird grid
     if (!container) return;
 
-    // Clear old bird cards before drawing new ones
     container.innerHTML = "";
 
     birdList.forEach(bird => {
@@ -326,17 +342,134 @@ function displayBirds(birdList) {
             <p>${bird.description}</p>
         `;
 
+    // CLICK EVENT → OPEN MODAL
+    card.addEventListener("click", () => {
+        document.getElementById("modalImage").src = bird.image;
+        document.getElementById("modalName").textContent = bird.name;
+        document.getElementById("modalScientific").textContent = bird.scientific || "";
+        document.getElementById("modalConservation").textContent = bird.conservationStatus;
+
+        /* taxonomy */
+        document.getElementById("modalOrder").textContent = bird.order;
+        document.getElementById("modalFamily").textContent = bird.family;
+
+        /* sections */
+        document.getElementById("modalDescription").textContent = bird.description;
+        document.getElementById("modalBehaviorText").textContent = bird.behaviorDetails;
+        document.getElementById("modalHabitatText").textContent = bird.habitatDetails;
+
+        /* info boxes */
+        document.getElementById("modalHabitatBox").textContent = bird.habitat;
+        document.getElementById("modalBehaviorBox").textContent = bird.behavior;
+        document.getElementById("modalDiet").textContent = bird.diet;
+        document.getElementById("modalNesting").textContent = bird.nesting;
+        document.getElementById("modalConservation").textContent = bird.conservation;
+
+        /* show modal */
+        document.getElementById("birdModal").classList.add("show");
+        document.body.style.overflow = "hidden";
+    });
+
+        // ✅ THIS WAS MISSING
         container.appendChild(card);
     });
 }
 
-// Show all birds when page loads
-if (document.getElementById("birdContainer")) {
-    displayBirds(birds);
-}
+
+// ==========================
+// NAV LOAD
+// ==========================
 
 fetch("nav.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("nav-placeholder").innerHTML = data;
   });
+
+
+// ==========================
+// MODAL CLOSE
+// ==========================
+
+let modal = document.getElementById("birdModal");
+let closeBtn = document.getElementById("closeModal");
+
+closeBtn.onclick = () => {
+    modal.classList.remove("show");
+    document.body.style.overflow = "auto";
+};
+
+window.onclick = (e) => {
+    if (e.target === modal) {
+        modal.classList.remove("show");
+        document.body.style.overflow = "auto";
+    }
+};
+
+// ==========================
+// AUTO TAXONOMY MAPPING
+// ==========================
+
+const taxonomyMap = {
+  "songbird": {
+    order: "Passeriformes",
+    family: "Various songbird families"
+  },
+  "raptor": {
+    order: "Accipitriformes / Falconiformes",
+    family: "Hawks, Eagles, Falcons"
+  },
+  "waterfowl": {
+    order: "Anseriformes",
+    family: "Anatidae"
+  },
+  "shorebird": {
+    order: "Charadriiformes",
+    family: "Various shorebird families"
+  },
+  "woodpecker": {
+    order: "Piciformes",
+    family: "Picidae"
+  },
+  "gamebird": {
+    order: "Galliformes",
+    family: "Phasianidae"
+  }
+};
+
+function populateFamilyFilter(birds) {
+  const familySet = new Set();
+
+  birds.forEach(bird => {
+    if (bird.family && bird.family !== "Unknown") {
+      familySet.add(bird.family);
+    }
+  });
+
+  const familyFilter = document.getElementById("familyFilter");
+
+  familySet.forEach(family => {
+    const option = document.createElement("option");
+    option.value = family;
+    option.textContent = family;
+    familyFilter.appendChild(option);
+  });
+
+}
+
+function filterBirds() {
+  const search = document.getElementById("searchInput").value.toLowerCase();
+  const type = document.getElementById("typeFilter").value;
+  const family = document.getElementById("familyFilter").value;
+
+  const filtered = birds.filter(bird => {
+
+    const matchesSearch = bird.name.toLowerCase().includes(search);
+    const matchesType = !type || bird.type === type;
+    const matchesFamily = !family || bird.family === family;
+
+    return matchesSearch && matchesType && matchesFamily;
+  });
+
+  displayBirds(filtered);
+}
