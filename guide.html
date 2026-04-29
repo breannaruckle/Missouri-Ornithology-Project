@@ -1,42 +1,47 @@
 <!--
       JavaScript 7th Edition
       Chapter 1
-      Indivdual Project
+      Individual Project
 
       Author: Bre Ruckle
       Date:   03/01/2026
 
       Filename: guide.html
-   -->
-
+-->
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="icon" type="image/png" href="images/icon.png">
-        <link rel="stylesheet" href="styles.css">
-        <title>Bird Guide</title>
-        <script src="java.js" defer></script>
-        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bird Guide</title>
+    <script src="java.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
 
-    <body class="guide-page">
-        <div class="content">
+</head>
+
+<body class="guide-page">
+
+<div class="content">
+
     <header>
         <div id="nav-placeholder"></div>
     </header>
 
-    <main class="content-card">
+    <main id="mainContent" class="content-card">
+
         <h2>A Closer Look at Missouri’s Native Species</h2>
+
         <p>
             This Bird Guide introduces a variety of native Missouri bird species found across 
             the state’s diverse landscapes. From colorful songbirds in forest canopies to waterfowl 
             in wetlands and raptors soaring above open prairies, Missouri provides habitat for an 
             impressive range of birds throughout the year.
         </p>
+
         <p>
             This section will explore key identification features, behaviors, and habitats of 
             common native species. As the site expands, detailed profiles will provide additional 
@@ -57,16 +62,123 @@
             <option value="orange">Orange</option> 
             <option value="blackwhite">Black and White</option>
         </select>
-    <p id="birdResult"></p>
-    <img id="birdImage" alt="Bird image" style="display:none;">
 
-            <h3>Missouri Bird Index</h3>
-            <div id="birdContainer" class="bird-grid"></div>
-</div>
+        <p id="birdResult"></p>
+        <img id="birdImage" alt="Bird image" style="display:none;">
+
+        <h3>Missouri Bird Index</h3>
+        <div class="filter-bar">
+
+        <!-- SEARCH -->
+        <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search birds..."
+        >
+
+        <!-- TYPE FILTER -->
+        <select id="typeFilter">
+            <option value="">All Types</option>
+            <option value="Songbird">Songbird</option>
+            <option value="Raptor">Raptor</option>
+            <option value="Waterfowl">Waterfowl</option>
+            <option value="Shorebird">Shorebird</option>
+            <option value="Woodpecker">Woodpecker</option>
+            <option value="Gamebird">Gamebird</option>
+        </select>
+
+        <!-- FAMILY FILTER -->
+        <select id="familyFilter">
+            <option value="">All Families</option>
+        </select>
+
+        </div>
+        <div id="birdContainer" class="bird-grid"></div>
+
     </main>
+
     <footer>
         Bre Ruckle | Missouri Ornithology Project | © 2026
     </footer>
+
+</div>
+
+<!-- ✅ FULL MODAL (correct and complete) -->
+<div id="birdModal" class="modal">
+  <div class="modal-content guide-style">
+
+    <span id="closeModal">&times;</span>
+
+    <!-- LEFT: REAL BIRD IMAGE -->
+    <div class="modal-left">
+      <img id="modalImage" src="" alt="">
+      <p class="bird-group" id="modalGroup"></p>
     </div>
+
+    <!-- RIGHT: INFO -->
+    <div class="modal-right">
+
+      <h2 id="modalName"></h2>
+      <p id="modalScientific" class="scientific-name"></p>
+
+      <div class="taxonomy">
+        <p>Order: <span id="modalOrder"></span></p>
+        <p>Family: <span id="modalFamily"></span></p>
+      </div>
+
+      <div class="modal-sections">
+
+        <div class="section-block">
+          <h3>Description</h3>
+          <p id="modalDescription"></p>
+        </div>
+
+        <div class="section-block">
+          <h3>Behavior</h3>
+          <p id="modalBehaviorText"></p>
+        </div>
+
+        <div class="section-block">
+          <h3>Habitat</h3>
+          <p id="modalHabitatText"></p>
+        </div>
+
+      </div>
+
+      <div class="info-grid">
+
+        <div class="info-box blue">
+          <p class="label">Habitat</p>
+          <p id="modalHabitatBox"></p>
+        </div>
+
+        <div class="info-box green">
+          <p class="label">Food</p>
+          <p id="modalDiet"></p>
+        </div>
+
+        <div class="info-box yellow">
+          <p class="label">Nesting</p>
+          <p id="modalNesting"></p>
+        </div>
+
+        <div class="info-box orange">
+          <p class="label">Behavior</p>
+          <p id="modalBehaviorBox"></p>
+        </div>
+
+        <div class="info-box lightgreen">
+          <p class="label">Conservation</p>
+          <p id="modalConservation"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
     </body>
 </html>
