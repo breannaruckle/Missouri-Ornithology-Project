@@ -3,7 +3,7 @@
 {
   "name": "Northern Cardinal",
   "scientific": "Cardinalis cardinalis",
-  "image": "images/northerncardinal.jpg",
+  "image": "images/birds/northerncardinal.jpg",
   "description": "The Northern Cardinal is one of the most recognizable birds in North America, known for its brilliant red plumage and distinctive crest. Males display vivid red coloration, while females are a softer brown with warm reddish accents. Their clear, whistling songs are heard year-round and are used to communicate territory and maintain strong pair bonds. Because they do not migrate, cardinals are a familiar and constant presence across seasons in backyards, forests, and shrublands.",
 
   "behaviorDetails": "Northern Cardinals are highly territorial, especially during the breeding season. Males aggressively defend their territory and may even attack reflections they perceive as rivals. Their songs are strong and clear, used to communicate and establish presence.\n\nThey form strong pair bonds and often stay together year-round. Males are frequently seen feeding females during courtship and nesting, reinforcing their partnership and increasing reproductive success.",
@@ -22,7 +22,7 @@
 {
   "name": "Blue Jay",
   "scientific": "Cyanocitta cristata",
-  "image": "images/bluejay.jpg",
+  "image": "images/birds/bluejay.jpg",
   "description": "The Blue Jay is a bold and intelligent songbird recognized by its bright blue plumage, crest, and loud, varied calls. Its striking coloration and assertive behavior make it a dominant presence in forests and suburban environments. Blue Jays are known for their complex vocal abilities, including mimicking hawks, and their role in spreading oak trees by caching acorns. Their adaptability and intelligence make them one of the most successful birds in eastern North America.",
 
   "behaviorDetails": "Blue Jays are intelligent and highly social birds known for their complex communication. They can mimic the calls of hawks, possibly to scare away competitors or signal danger to other birds.\n\nThey are also known for caching food, especially acorns, which they store for later use. This behavior plays an important role in forest regeneration, as forgotten seeds can grow into new trees.",
@@ -41,7 +41,7 @@
 {
   "name": "American Goldfinch",
   "scientific": "Spinus tristis",
-  "image": "images/americangoldfinch.jpg",
+  "image": "images/birds/americangoldfinch.jpg",
   "description": "The American Goldfinch is a small, vibrant songbird known for its bright yellow plumage during the breeding season and its cheerful, bouncing flight. Males display brilliant yellow feathers with contrasting black wings, while females appear more muted in color. These birds are highly specialized seed eaters and are often seen clinging to plants or visiting feeders. Their late breeding season, timed with peak seed availability, makes them unique among many North American birds.",
 
   "behaviorDetails": "American Goldfinches are social birds often found in flocks, especially outside of the breeding season. Their flight is distinctive, with a bouncing pattern accompanied by musical calls.\n\nUnlike many birds, they breed later in the summer when seeds are abundant. This timing ensures a reliable food source for feeding their young.",
@@ -60,7 +60,7 @@
 {
   "name": "Red-tailed Hawk",
   "scientific": "Buteo jamaicensis",
-  "image": "images/redtailedhawk.jpg",
+  "image": "images/birds/redtailedhawk.jpg",
   "description": "The Red-tailed Hawk is one of the most widespread and recognizable birds of prey in North America. It is often seen soaring high above open landscapes, using rising air currents to glide effortlessly. Its reddish tail, visible in flight, is a key identifying feature. As a powerful predator, it plays an important role in controlling populations of small mammals and maintaining ecological balance.",
 
   "behaviorDetails": "Red-tailed Hawks are powerful predators that rely on keen eyesight to locate prey from high above. They often soar in wide circles or perch on elevated structures while scanning for movement.\n\nThey are territorial birds and will defend their nesting areas vigorously. Their distinctive screech is often associated with open landscapes and is commonly used in media to represent birds of prey.",
@@ -79,7 +79,7 @@
 {
   "name": "Mourning Dove",
   "scientific": "Zenaida macroura",
-  "image": "images/mourningdove.jpg",
+  "image": "images/birds/mourningdove.jpg",
   "description": "The Mourning Dove is a slender, soft-gray bird known for its gentle appearance and haunting, cooing call. Its long, pointed tail and smooth, fast flight give it an elegant look in motion. These birds are extremely widespread across North America and are often seen perched on wires or feeding on the ground. Their calm behavior and adaptability make them a familiar presence in both rural and suburban environments.",
 
   "behaviorDetails": "Mourning Doves are calm, social birds often seen in pairs or small groups. They spend much of their time foraging on the ground, searching for seeds.\n\nTheir flight is fast and direct, producing a soft whistling sound from their wings. During courtship, males perform display flights to attract females and establish bonds.",
@@ -99,7 +99,7 @@
 {
   "name": "Downy Woodpecker",
   "scientific": "Dryobates pubescens",
-  "image": "images/downywoodpecker.jpg",
+  "image": "images/birds/downywoodpecker.jpg",
   "description": "The Downy Woodpecker is the smallest woodpecker in North America and a common sight in forests and backyard feeders. It has a distinctive black-and-white pattern, with males showing a small red patch on the back of the head. Despite its small size, it is an active and agile climber, frequently seen moving along tree trunks and branches in search of insects.",
 
   "behaviorDetails": "Downy Woodpeckers are energetic foragers that spend much of their time tapping and probing tree bark for insects and larvae. Their pecking is softer and less forceful than larger woodpeckers, reflecting their smaller size and preference for thinner branches.\n\nThey are generally non-aggressive and often join mixed-species flocks during winter months. Their drumming is used for communication and territory marking rather than feeding, and they can often be heard tapping rhythmically on trees or even metal surfaces.",
@@ -119,7 +119,7 @@
 {
   "name": "Barn Swallow",
   "scientific": "Hirundo rustica",
-  "image": "images/barnswallow.jpg",
+  "image": "images/birds/barnswallow.jpg",
   "description": "The Barn Swallow is a graceful, fast-flying bird recognized by its deeply forked tail and glossy blue upperparts. It is often seen darting through the air as it catches insects mid-flight. Known for its close association with human structures, it frequently nests in barns, bridges, and other sheltered areas.",
 
   "behaviorDetails": "Barn Swallows are highly aerial birds, spending much of their time in flight as they hunt insects. Their agile movements and sharp turns allow them to capture prey efficiently in mid-air.\n\nThey are social birds that often nest in colonies. During the breeding season, they are frequently seen perching on wires or structures, and their cheerful, twittering calls add to their lively presence.",
@@ -139,7 +139,7 @@
 {
   "name": "Ruby-throated Hummingbird",
   "scientific": "Archilochus colubris",
-  "image": "images/rubythroatedhummingbird.jpg",
+  "image": "images/birds/rubythroatedhummingbird.jpg",
   "description": "The Ruby-throated Hummingbird is a tiny, iridescent bird known for its rapid wingbeats and ability to hover in place. Males display a brilliant red throat that flashes in the light, while females have a more subdued appearance. Despite their small size, these birds are capable of long-distance migrations.",
 
   "behaviorDetails": "These hummingbirds are highly energetic and spend most of their day feeding. They hover in front of flowers to drink nectar and also consume small insects for protein.\n\nThey are solitary and territorial, especially around feeding areas. Males will aggressively defend flower patches or feeders from other hummingbirds and even larger birds.",
@@ -159,7 +159,7 @@
 {
   "name": "Carolina Chickadee",
   "scientific": "Poecile carolinensis",
-  "image": "images/carolinachickadee.jpg",
+  "image": "images/birds/carolinachickadee.jpg",
   "description": "The Carolina Chickadee is a small, active bird with a distinctive black cap and bib contrasted by white cheeks. Its cheerful “chick-a-dee-dee-dee” call makes it one of the most recognizable birds in its range. Despite its size, it is bold and curious, often approaching feeders closely.",
 
   "behaviorDetails": "Carolina Chickadees are highly active and constantly moving as they search for food. They are known for their curiosity and will readily investigate feeders and human activity.\n\nThey store food for later use, hiding seeds in bark or crevices. Their vocalizations vary in complexity and can signal different levels of danger to other birds.",
@@ -179,7 +179,7 @@
 {
   "name": "Tufted Titmouse",
   "scientific": "Baeolophus bicolor",
-  "image": "images/tuftedtitmouse.jpg",
+  "image": "images/birds/tuftedtitmouse.jpg",
   "description": "The Tufted Titmouse is a small gray bird with a distinctive crest and large dark eyes. It is often seen at feeders and is known for its clear, whistling calls. Its friendly appearance and active behavior make it a favorite among birdwatchers.",
 
   "behaviorDetails": "Tufted Titmice are energetic and inquisitive birds that move quickly through trees and shrubs. They often join mixed-species flocks, especially during colder months.\n\nThey frequently take seeds from feeders and carry them away to crack open. Like chickadees, they also cache food for later use, demonstrating strong memory and foraging skills.",
@@ -199,7 +199,7 @@
 {
   "name": "American Crow",
   "scientific": "Corvus brachyrhynchos",
-  "image": "images/americancrow.jpg",
+  "image": "images/birds/americancrow.jpg",
   "description": "The American Crow is a large, all-black bird known for its intelligence, adaptability, and loud cawing calls. It is one of the most widespread birds in North America and is commonly seen in fields, forests, and urban environments. Its problem-solving abilities and complex social behavior make it one of the most fascinating birds to observe.",
 
   "behaviorDetails": "American Crows are highly intelligent and capable of advanced problem-solving, including using tools and recognizing human faces. They communicate using a wide variety of calls and often work together to locate food or warn others of danger.\n\nThey are extremely social and form large flocks, especially in winter. At night, they gather in communal roosts that can contain thousands of individuals, demonstrating complex social structures and cooperation.",
@@ -219,7 +219,7 @@
 {
   "name": "American Robin",
   "scientific": "Turdus migratorius",
-  "image": "images/americanrobin.jpg",
+  "image": "images/birds/americanrobin.jpg",
   "description": "The American Robin is one of the most familiar birds in North America, easily recognized by its bright orange breast and cheerful song. It is often seen hopping across lawns in search of worms and is commonly associated with the arrival of spring.",
 
   "behaviorDetails": "American Robins are active ground foragers that rely on sight and sound to locate earthworms and insects. They frequently pause, tilt their heads, and then quickly pull prey from the soil.\n\nDuring breeding season, robins become territorial and defend their nesting areas aggressively. Their early morning singing is a key part of their behavior, used to attract mates and establish territory.",
@@ -239,7 +239,7 @@
 {
   "name": "Bald Eagle",
   "scientific": "Haliaeetus leucocephalus",
-  "image": "images/baldeagle.jpg",
+  "image": "images/birds/baldeagle.jpg",
   "description": "The Bald Eagle is a large and powerful bird of prey, easily recognized by its white head and tail contrasted with a dark body. It is a symbol of strength and freedom in the United States and is most commonly found near large bodies of water.",
 
   "behaviorDetails": "Bald Eagles are skilled hunters that primarily feed on fish, which they capture by swooping down and grabbing prey with their talons. They may also scavenge or steal food from other birds.\n\nThey are known for building some of the largest nests of any bird, often reusing and adding to them year after year. Pairs form strong bonds and typically return to the same nesting sites annually.",
@@ -259,7 +259,7 @@
 {
   "name": "Baltimore Oriole",
   "scientific": "Icterus galbula",
-  "image": "images/baltimoreoriole.jpg",
+  "image": "images/birds/baltimoreoriole.jpg",
   "description": "The Baltimore Oriole is a brightly colored songbird with vivid orange and black plumage. Known for its beautiful, flute-like song, it is a welcome sign of spring and summer in wooded and suburban areas.",
 
   "behaviorDetails": "Baltimore Orioles are active foragers that feed on insects, fruit, and nectar. They are particularly known for their intricate nest-building skills, weaving hanging pouch-like nests from plant fibers.\n\nThey are somewhat shy but will visit feeders offering fruit or nectar. Their musical songs are frequently heard during the breeding season as males establish territory.",
@@ -279,7 +279,7 @@
 {
   "name": "Black-capped Chickadee",
   "scientific": "Poecile atricapillus",
-  "image": "images/blackcappedchickadee.jpg",
+  "image": "images/birds/blackcappedchickadee.jpg",
   "description": "The Black-capped Chickadee is a small, friendly bird with a distinctive black cap and white cheeks. Its cheerful “chick-a-dee-dee-dee” call makes it one of the most recognizable birds in North America.",
 
   "behaviorDetails": "Black-capped Chickadees are highly active and curious birds that constantly move through trees in search of food. They are known for their boldness and will often approach feeders and humans closely.\n\nThey store food for later use, hiding seeds in bark and crevices. Their calls vary in complexity and can communicate different levels of threat to other birds.",
@@ -299,7 +299,7 @@
 {
   "name": "Carolina Wren",
   "scientific": "Thryothorus ludovicianus",
-  "image": "images/carolinawren.jpg",
+  "image": "images/birds/carolinawren.jpg",
   "description": "The Carolina Wren is a small, warm-brown songbird with a bold white eyebrow stripe and an incredibly loud, ringing voice. Despite its small size, it is often heard before it is seen, delivering clear, repeated songs that carry across forests and neighborhoods. It is a year-round resident and a familiar presence in brushy habitats and backyards.",
 
   "behaviorDetails": "Carolina Wrens are highly energetic and curious birds that constantly explore dense vegetation in search of insects and spiders. They often hop along branches and logs, probing crevices for hidden prey.\n\nThey are strongly territorial and maintain pair bonds year-round. Their loud, repeated songs are used to defend territory, and they are known to nest in unusual places such as mailboxes, flowerpots, and sheds.",
@@ -316,7 +316,7 @@
 {
   "name": "Cedar Waxwing",
   "scientific": "Bombycilla cedrorum",
-  "image": "images/cedarwaxwing.jpg",
+  "image": "images/birds/cedarwaxwing.jpg",
   "description": "The Cedar Waxwing is a sleek, elegant bird with smooth brown plumage, a silky crest, and distinctive red wax-like tips on its wings. Often seen in flocks, it is known for its gentle appearance and soft, high-pitched calls. Its diet of berries makes it a key species in seed dispersal.",
 
   "behaviorDetails": "Cedar Waxwings are highly social birds that travel and feed in flocks. They often pass berries between each other in a cooperative feeding behavior.\n\nThey are primarily fruit-eaters but will also catch insects during the breeding season. Their calm, graceful movements and flocking behavior make them unique among songbirds.",
@@ -333,7 +333,7 @@
 {
   "name": "Chimney Swift",
   "scientific": "Chaetura pelagica",
-  "image": "images/chimneyswift.jpg",
+  "image": "images/birds/chimneyswift.jpg",
   "description": "The Chimney Swift is a fast, agile bird that spends nearly its entire life in flight. With long, narrow wings and rapid wingbeats, it appears like a flying cigar in the sky. It is rarely seen perched and is most often observed darting through the air catching insects.",
 
   "behaviorDetails": "Chimney Swifts are among the most aerial of all birds, feeding, drinking, and even bathing while in flight. They catch flying insects with remarkable precision.\n\nThey are highly social and often gather in large groups, especially during migration. At dusk, they can be seen spiraling into chimneys or roosting structures in dramatic formations.",
@@ -350,7 +350,7 @@
 {
   "name": "Common Grackle",
   "scientific": "Quiscalus quiscula",
-  "image": "images/commongrackle.jpg",
+  "image": "images/birds/commongrackle.jpg",
   "description": "The Common Grackle is a large blackbird with iridescent plumage that shines purple and green in sunlight. Its long tail and piercing yellow eyes give it a striking appearance. It is commonly seen in large flocks, especially outside the breeding season.",
 
   "behaviorDetails": "Common Grackles are highly adaptable and opportunistic feeders. They forage on the ground and in trees, eating insects, grains, and even small animals.\n\nThey are social birds that form large flocks, often mixing with other blackbird species. Their loud, varied calls contribute to their noisy presence in open areas.",
@@ -367,7 +367,7 @@
 {
   "name": "Eastern Bluebird",
   "scientific": "Sialia sialis",
-  "image": "images/easternbluebird.jpg",
+  "image": "images/birds/easternbluebird.jpg",
   "description": "The Eastern Bluebird is a small thrush with bright blue upperparts and a warm orange chest. It is often seen perched on fences or branches, scanning for insects. Its gentle appearance and soft song make it a favorite among birdwatchers.",
 
   "behaviorDetails": "Eastern Bluebirds are calm and methodical foragers, often dropping from perches to catch insects on the ground.\n\nThey are social and may form small groups outside the breeding season. They readily use nest boxes and benefit from conservation efforts.",
@@ -384,7 +384,7 @@
 {
   "name": "Purple Finch",
   "scientific": "Haemorhous purpureus",
-  "image": "images/purplefinch.jpg",
+  "image": "images/birds/purplefinch.jpg",
   "description": "The Purple Finch is a rosy-colored songbird that appears irregularly in winter. Males are washed in raspberry tones, while females are streaked brown. Despite its name, it is more red than purple.",
 
   "behaviorDetails": "Purple Finches are social birds often seen in small flocks during winter. They forage for seeds and berries both in trees and at feeders.\n\nThey are considered irruptive, meaning their numbers vary year to year depending on food availability in northern forests.",
@@ -401,12 +401,12 @@
 {
   "name": "Red-breasted Nuthatch",
   "scientific": "Sitta canadensis",
-  "image": "images/redbreastednuthatch.jpg",
+  "image": "images/birds/redbreastednuthatch.jpg",
   "description": "The Red-breasted Nuthatch is a small bird with a black eye stripe and rusty underparts. It is known for its nasal calls and its ability to climb down tree trunks headfirst.",
 
   "behaviorDetails": "These nuthatches are active foragers that search bark for insects and seeds. They often wedge seeds into crevices and hammer them open.\n\nThey are irruptive migrants, appearing in large numbers some winters. Their nasal 'yank-yank' call is a key identifier.",
 
-  "habitatDetails": "They prefer coniferous forests but move south when food is scarce.\n\nThey are often seen in mixed flocks and frequently visit feeders during winter months.",
+  "habitatDetails": "They prefer coniferous forests but move south when food is scarce.\n\nThey are often seen in mixed flocks and frequently visit feeders during winter months, especially those offering sunflower seeds.",
 
   "type": "Songbird",
   "season": "Irruptive",
@@ -418,7 +418,7 @@
 {
   "name": "Snowy Owl",
   "scientific": "Bubo scandiacus",
-  "image": "images/snowyowl.jpg",
+  "image": "images/birds/snowyowl.jpg",
   "description": "The Snowy Owl is a large, striking white owl that is rarely seen in Missouri. It is native to Arctic regions but occasionally appears during irruption years, drawing significant attention from birdwatchers.",
 
   "behaviorDetails": "Unlike many owls, Snowy Owls are often active during the day. They hunt by watching for movement and swooping down on prey.\n\nThey primarily feed on small mammals and are known for their powerful build and silent flight.",
@@ -435,7 +435,7 @@
 {
   "name": "Sandhill Crane",
   "scientific": "Antigone canadensis",
-  "image": "images/sandhillcrane.jpg",
+  "image": "images/birds/sandhillcrane.jpg",
   "description": "The Sandhill Crane is a tall, elegant bird with long legs, a gray body, and a distinctive red crown. Its loud, rolling call can be heard over long distances, especially during migration.",
 
   "behaviorDetails": "Sandhill Cranes are known for their elaborate courtship dances, which include jumping, bowing, and wing-flapping displays.\n\nThey are highly social and often travel in large flocks during migration, forming impressive V-shaped formations in the sky.",
@@ -452,7 +452,7 @@
 {
   "name": "Dark-eyed Junco",
   "scientific": "Junco hyemalis",
-  "image": "images/darkeyedjunco.jpg",
+  "image": "images/birds/darkeyedjunco.jpg",
   "description": "The Dark-eyed Junco is a small gray bird often called a “snowbird” because of its arrival in winter. It is commonly seen hopping on the ground in flocks, especially in backyards and forest edges.",
 
   "behaviorDetails": "Juncos are ground-feeding birds that forage for seeds and insects. They move in small flocks and are constantly active while feeding.\n\nThey are relatively tame and frequently visit feeders. Their soft calls and subtle coloration make them a quiet but common winter presence.",
@@ -470,7 +470,7 @@
  {
   "name": "White-throated Sparrow",
   "scientific": "Zonotrichia albicollis",
-  "image": "images/whitethroatedsparrow.jpg",
+  "image": "images/birds/whitethroatedsparrow.jpg",
   "description": "The White-throated Sparrow is a distinctive winter visitor with a bright white throat patch and yellow lores near the eyes. Its clear whistled song, often described as “Oh-sweet-Canada-Canada,” is one of the most recognizable bird songs. In winter, it is commonly seen scratching through leaf litter in search of food.",
 
   "behaviorDetails": "These sparrows are ground foragers that use a two-footed scratching motion to uncover seeds and insects. They are often found in loose flocks and may mix with other sparrow species.\n\nThey are relatively shy but will visit feeders, especially those offering millet. Their soft calls and steady movements make them a calm but constant presence in winter habitats.",
@@ -487,7 +487,7 @@
 {
   "name": "Brown Creeper",
   "scientific": "Certhia americana",
-  "image": "images/browncreeper.jpg",
+  "image": "images/birds/browncreeper.jpg",
   "description": "The Brown Creeper is a small, well-camouflaged bird that blends perfectly with tree bark. It is known for its unique habit of spiraling up tree trunks while searching for insects. Its thin, curved bill allows it to probe into bark crevices with precision.",
 
   "behaviorDetails": "Brown Creepers forage by starting at the base of a tree and spiraling upward, picking insects from the bark as they go. Once they reach the top, they fly down to another tree and repeat the process.\n\nThey are quiet and inconspicuous, often overlooked due to their camouflage. Their high-pitched calls are subtle and can be difficult to detect.",
@@ -504,7 +504,7 @@
 {
   "name": "Winter Wren",
   "scientific": "Troglodytes hiemalis",
-  "image": "images/winterwren.jpg",
+  "image": "images/birds/winterwren.jpg",
   "description": "The Winter Wren is a tiny, round-bodied bird with a very short tail and a surprisingly loud, complex song. Its rich, musical voice contrasts with its small size, making it a remarkable species to hear in dense forests.",
 
   "behaviorDetails": "Winter Wrens are highly secretive and prefer to stay hidden in dense vegetation. They forage close to the ground, searching for insects among roots, logs, and leaf litter.\n\nDespite their secretive nature, males produce loud, intricate songs that echo through the forest. These songs are among the most complex of any North American bird.",
@@ -521,7 +521,7 @@
 {
   "name": "Yellow-rumped Warbler",
   "scientific": "Setophaga coronata",
-  "image": "images/yellowrumpedwarbler.jpg",
+  "image": "images/birds/yellowrumpedwarbler.jpg",
   "description": "The Yellow-rumped Warbler is one of the most widespread warblers and one of the few that can be seen in winter. It has gray plumage with distinctive yellow patches on its sides and rump, making it easy to identify.",
 
   "behaviorDetails": "These warblers are highly active, constantly moving through trees and shrubs in search of insects. In winter, they switch to eating berries, which allows them to survive in colder climates.\n\nThey are often seen flicking their tails and making short flights between branches. Their adaptability makes them more resilient than many other warbler species.",
@@ -539,7 +539,7 @@
 {
   "name": "Wood Duck",
   "scientific": "Aix sponsa",
-  "image": "images/woodduck.jpg",
+  "image": "images/birds/woodduck.jpg",
   "description": "The Wood Duck is one of the most striking and colorful waterfowl species in North America, with males displaying iridescent greens, purples, blues, and intricate white markings. Females are more subdued but still elegant, with soft gray tones and a distinct white eye ring. Unlike most ducks, this species nests in tree cavities, sometimes high above the ground, making it unique among waterfowl. It is often seen gliding quietly through wooded wetlands, where its reflection adds to its visual beauty. Historically, Wood Duck populations declined due to habitat loss and hunting, but conservation efforts and nest box programs have helped them recover significantly.",
 
   "behaviorDetails": "Wood Ducks are strong swimmers and dabblers, feeding on seeds, aquatic plants, and insects while moving quietly across the water. They often forage in shaded areas near fallen logs or vegetation.\n\nOne of their most fascinating behaviors occurs shortly after hatching, when ducklings leap from tree cavities to the ground below. This dramatic drop, guided by the mother’s calls, is a defining trait of the species and a remarkable survival adaptation.",
@@ -556,7 +556,7 @@
 {
   "name": "Northern Shoveler",
   "scientific": "Spatula clypeata",
-  "image": "images/northernshoveler.jpg",
+  "image": "images/birds/northernshoveler.jpg",
   "description": "The Northern Shoveler is a distinctive duck recognized by its oversized, spoon-shaped bill, which is specially adapted for filtering food from the water. Males display striking breeding plumage with a green head, white chest, and chestnut sides, while females are mottled brown for camouflage. This species is most often seen in shallow wetlands where it feeds in groups. Its unusual bill and feeding style make it one of the easiest ducks to identify, even from a distance.",
 
   "behaviorDetails": "Northern Shovelers feed by sweeping their bills through the water, filtering out small aquatic organisms such as insects, crustaceans, and plant material.\n\nThey are often seen feeding in groups and may swim in circles together to stir up food, increasing feeding efficiency. This cooperative behavior is unusual among ducks and makes them interesting to observe.",
@@ -573,7 +573,7 @@
 {
   "name": "Blue-winged Teal",
   "scientific": "Spatula discors",
-  "image": "images/bluewingedteal.jpg",
+  "image": "images/birds/bluewingedteal.jpg",
   "description": "The Blue-winged Teal is a small, fast-moving duck known for the pale blue patch on its wings, which is especially visible in flight. Males also feature a bold white crescent on the face, while females are more subtly patterned. This species is one of the earliest migrants, often arriving in spring before many other waterfowl. It prefers shallow wetlands and is commonly seen in groups during migration.",
 
   "behaviorDetails": "Blue-winged Teal are dabbling ducks that feed by tipping forward in the water to reach submerged plants and insects.\n\nThey are quick, agile fliers and often move in tight flocks. During migration, they travel long distances and may gather in large numbers in suitable wetland habitats.",
@@ -590,7 +590,7 @@
 {
   "name": "Least Sandpiper",
   "scientific": "Calidris minutilla",
-  "image": "images/leastsandpiper.jpg",
+  "image": "images/birds/leastsandpiper.jpg",
   "description": "The Least Sandpiper is the smallest shorebird in North America, easily recognized by its small size and brown, streaked plumage that blends perfectly with muddy shorelines. Its subtle coloration provides excellent camouflage, making it difficult to spot unless in motion. It is commonly seen during migration, often feeding in flocks along the edges of shallow water.",
 
   "behaviorDetails": "Least Sandpipers forage actively along the water’s edge, picking small insects and invertebrates from the mud.\n\nThey move quickly and continuously while feeding, often in small groups. Their constant motion and soft calls make them a lively presence along shorelines.",
@@ -607,7 +607,7 @@
 {
   "name": "Spotted Sandpiper",
   "scientific": "Actitis macularius",
-  "image": "images/spottedsandpiper.jpg",
+  "image": "images/birds/spottedsandpiper.jpg",
   "description": "The Spotted Sandpiper is a small, distinctive shorebird known for its spotted underparts during breeding season and its constant tail-bobbing motion. It is commonly found along streams, lakes, and ponds, where it walks along the shoreline searching for food. Its unique movement pattern makes it easy to identify even from a distance.",
 
   "behaviorDetails": "Spotted Sandpipers are active foragers that walk along shorelines, picking insects and small aquatic prey.\n\nTheir constant tail bobbing is a defining behavior and may help with balance or communication. They are often solitary but may gather in small groups during migration.",
@@ -624,7 +624,7 @@
 {
   "name": "Whooping Crane",
   "scientific": "Grus americana",
-  "image": "images/whoopingcrane.jpg",
+  "image": "images/birds/whoopingcrane.jpg",
   "description": "The Whooping Crane is one of the tallest and rarest birds in North America, known for its striking white plumage, black wingtips, and long legs. Once nearly extinct, it has become a symbol of conservation success, though it remains endangered. Its loud, trumpeting call can carry for miles across wetlands. Sightings in Missouri are rare and often occur during migration, making them especially memorable for birdwatchers.",
 
   "behaviorDetails": "Whooping Cranes are cautious and alert birds that forage slowly through wetlands, feeding on plants, insects, and small animals.\n\nThey are known for elaborate courtship dances involving jumping, wing flapping, and synchronized movements, which help strengthen pair bonds.",
@@ -643,7 +643,7 @@
 {
   "name": "Mississippi Kite",
   "scientific": "Ictinia mississippiensis",
-  "image": "images/mississippikite.jpg",
+  "image": "images/birds/mississippikite.jpg",
   "description": "The Mississippi Kite is a sleek, graceful raptor known for its buoyant flight and soft gray coloration that gives it an almost ghostlike presence in the sky. It is most often seen gliding effortlessly over open landscapes, rarely flapping its wings as it rides warm air currents. Unlike many birds of prey, it feeds primarily on insects, catching them mid-air with precision and agility. During the summer months, it becomes a familiar sight in parts of Missouri, especially where insect populations are high. Its calm, floating flight style and narrow wings make it easy to distinguish from bulkier hawks. Though elegant in appearance, it is a highly capable hunter perfectly adapted to life in the air. Its presence signals healthy insect populations and open habitat conditions.",
 
   "behaviorDetails": "Mississippi Kites are highly aerial hunters that spend most of their day in flight. They glide, swoop, and twist through the air as they capture flying insects, often consuming them while still airborne.\n\nDuring the breeding season, they may nest in loose colonies and become surprisingly defensive. Adults will sometimes dive at intruders, including humans, who approach too closely to nesting areas, showing a more aggressive side despite their otherwise graceful nature.",
@@ -660,7 +660,7 @@
 {
   "name": "Broad-winged Hawk",
   "scientific": "Buteo platypterus",
-  "image": "images/broadwingedhawk.jpg",
+  "image": "images/birds/broadwingedhawk.jpg",
   "description": "The Broad-winged Hawk is a compact and powerful raptor best known for its spectacular migratory behavior. It has broad wings and a distinctive banded tail that make it recognizable in flight. During migration, it forms massive groups called “kettles,” where hundreds or even thousands of birds circle together on rising air currents. This dramatic movement is one of the most impressive natural spectacles in North America. Outside of migration, however, the species is surprisingly secretive and difficult to observe. It spends much of its time hidden within forest canopies, hunting quietly. Its dual nature as both a social migrant and solitary forest hunter makes it especially fascinating.",
 
   "behaviorDetails": "Broad-winged Hawks rely heavily on thermal updrafts to travel long distances during migration. They circle upward in spirals before gliding to the next rising current, conserving energy over long journeys.\n\nWhen not migrating, they are more solitary and hunt from perches within forests. They feed on small mammals, amphibians, and reptiles, often swooping down quickly to capture prey.",
@@ -677,7 +677,7 @@
 {
   "name": "Short-eared Owl",
   "scientific": "Asio flammeus",
-  "image": "images/shortearedowl.jpg",
+  "image": "images/birds/shortearedowl.jpg",
   "description": "The Short-eared Owl is a medium-sized owl that stands out for its unusual habit of hunting during daylight hours. It is often seen flying low over open grasslands, especially at dawn and dusk, with a buoyant, moth-like flight pattern. Its name comes from its small, barely visible ear tufts, which are often hidden. Its pale body and dark wing markings make it recognizable in flight. Unlike forest-dwelling owls, this species is strongly tied to open habitats. Its presence in Missouri is most common during winter, when it moves south in search of food. Its low, gliding flight over fields makes it one of the easier owls to observe.",
 
   "behaviorDetails": "Short-eared Owls hunt by flying low over fields and grasslands, using their excellent hearing to locate small mammals hidden in vegetation. Their slow, buoyant flight allows them to scan large areas efficiently.\n\nThey are nomadic and will move to areas where prey is abundant. In winter, they may gather in loose groups and share hunting territories, which is uncommon among many owl species.",
@@ -694,7 +694,7 @@
 {
   "name": "Northern Saw-whet Owl",
   "scientific": "Aegolius acadicus",
-  "image": "images/northernsawwhetowl.jpg",
+  "image": "images/birds/northernsawwhetowl.jpg",
   "description": "The Northern Saw-whet Owl is one of the smallest owls in North America, known for its round face, bright yellow eyes, and soft brown plumage. Despite its tiny size, it is a capable nocturnal predator that hunts efficiently in dense forests. It is rarely seen due to its secretive nature and preference for remaining hidden during daylight hours. Its name comes from its repetitive call, which resembles the sound of a saw being sharpened. During winter, it occasionally moves south into Missouri, though sightings remain uncommon. Its quiet habits and small size make it one of the most elusive birds in the region.",
 
   "behaviorDetails": "Northern Saw-whet Owls are strictly nocturnal hunters that rely on silent flight and keen hearing to locate small rodents.\n\nThey perch quietly and wait for movement before striking quickly and accurately. Their secretive nature means they are often detected only by their repetitive calls at night.",
@@ -712,7 +712,7 @@
 {
   "name": "Common Yellowthroat",
   "scientific": "Geothlypis trichas",
-  "image": "images/commonyellowthroat.jpg",
+  "image": "images/birds/commonyellowthroat.jpg",
   "description": "The Common Yellowthroat is a small but energetic warbler best known for its bright yellow throat and bold black facial mask in males. It is often heard before it is seen, singing its distinctive “witchety-witchety-witchety” song from deep within dense vegetation. Despite its vivid coloring, it can be surprisingly difficult to spot because it prefers to stay low and hidden. This species thrives in wet environments where thick plant growth provides both food and protection. It is a common summer resident in Missouri and plays an important role in controlling insect populations. Its combination of bold markings and secretive behavior makes it both recognizable and elusive.",
 
   "behaviorDetails": "Common Yellowthroats are active but secretive birds that spend most of their time moving through dense grasses and shrubs. They forage by hopping and flitting through vegetation, picking insects from leaves and stems.\n\nMales are highly vocal during the breeding season and use their distinctive song to defend territory. Despite their small size, they can be aggressive when protecting nesting areas.",
@@ -729,7 +729,7 @@
 {
   "name": "Yellow Warbler",
   "scientific": "Setophaga petechia",
-  "image": "images/yellowwarbler.jpg",
+  "image": "images/birds/yellowwarbler.jpg",
   "description": "The Yellow Warbler is a bright and cheerful songbird that stands out for its entirely yellow plumage and sweet, musical song. It is one of the most recognizable warblers due to its bold coloration and frequent presence near water. Males often show faint reddish streaks on the chest, adding subtle detail to their otherwise uniform appearance. This species is commonly found in Missouri during the summer months, where it breeds in shrub-filled habitats. Its constant movement and lively song make it a noticeable part of wetland ecosystems. Despite its beauty, it faces challenges such as nest parasitism from cowbirds, which has influenced its unique nesting behavior.",
 
   "behaviorDetails": "Yellow Warblers are highly active foragers that move quickly through shrubs and small trees, searching for insects among leaves and branches.\n\nThey are known for their unusual response to brood parasitism, often building a new nest layer over eggs laid by cowbirds instead of abandoning the nest entirely. This behavior is a fascinating adaptation to a common threat.",
@@ -746,7 +746,7 @@
 {
   "name": "Black-throated Green Warbler",
   "scientific": "Setophaga virens",
-  "image": "images/blackthroatedgreenwarbler.jpg",
+  "image": "images/birds/blackthroatedgreenwarbler.jpg",
   "description": "The Black-throated Green Warbler is a small but striking songbird with olive-green upperparts, a bright yellow face, and a bold black throat. Its contrasting colors make it relatively easy to identify compared to many other warblers. It is most often seen in Missouri during migration as it travels between northern breeding grounds and southern wintering areas. Its high-pitched song is a common sound in forested areas during these periods. Although it is active and mobile, its preference for higher branches can make it challenging to observe clearly. Its presence adds color and movement to forest habitats during migration.",
 
   "behaviorDetails": "These warblers forage actively in the canopy, searching leaves and branches for insects. Their movements are quick and agile, often involving short flights between branches.\n\nThey rarely remain in one place for long, constantly moving as they search for food. This behavior makes them energetic but sometimes difficult to follow visually.",
@@ -763,7 +763,7 @@
 {
   "name": "Magnolia Warbler",
   "scientific": "Setophaga magnolia",
-  "image": "images/magnoliawarbler.jpg",
+  "image": "images/birds/magnoliawarbler.jpg",
   "description": "The Magnolia Warbler is a striking and colorful bird with bright yellow underparts and bold black streaks across its chest. Its contrasting colors and white wing bars make it one of the more visually distinctive warblers. It is commonly seen during migration, when it passes through Missouri in search of food and shelter. Despite its vibrant appearance, it can still blend into dense foliage when not moving. Its presence brings both color and activity to forested habitats during migration seasons. It is a favorite among birdwatchers due to its beauty and relative visibility.",
 
   "behaviorDetails": "Magnolia Warblers are highly active and constantly move through branches while searching for insects. Their feeding behavior includes short hops and quick flights between perches.\n\nThey often forage at mid-level heights, making them somewhat easier to observe than species that stay high in the canopy.",
@@ -780,7 +780,7 @@
 {
   "name": "Blackpoll Warbler",
   "scientific": "Setophaga striata",
-  "image": "images/blackpollwarbler.jpg",
+  "image": "images/birds/blackpollwarbler.jpg",
   "description": "The Blackpoll Warbler is a small, streaked songbird that is remarkable for its extraordinary migration. It travels thousands of miles between breeding grounds in North America and wintering areas in South America, including nonstop flights over the Atlantic Ocean. Its plumage is relatively subtle, but males in breeding season display a black cap that helps distinguish them. During migration, it is commonly seen in wooded areas where it stops to feed and rest. Its endurance and long-distance travel make it one of the most impressive migratory birds in the world. Despite its small size, it is capable of incredible feats of navigation and stamina.",
 
   "behaviorDetails": "Blackpoll Warblers forage actively in trees, searching for insects among leaves and branches. Their movements are steady and persistent as they gather energy for migration.\n\nThey are famous for their long-distance flights, including transoceanic journeys that require careful energy management and precise timing.",
@@ -807,7 +807,7 @@
 {
   "name": "Tennessee Warbler",
   "scientific": "Leiothlypis peregrina",
-  "image": "images/tennesseewarbler.jpg",
+  "image": "images/birds/tennesseewarbler.jpg",
   "description": "The Tennessee Warbler is a small, plain-colored songbird that lacks the bold markings of many other warblers but makes up for it with energy and abundance. It has olive-green upperparts and a pale underside, giving it a simple appearance. Despite its name, it does not breed in Tennessee, instead nesting in northern forests and passing through Missouri during migration. It is often seen in large numbers, especially in areas where insect populations are high. Its sharp, distinctive call helps birdwatchers identify it even when it is hidden among leaves. Its understated appearance hides a highly active and adaptable bird.",
 
   "behaviorDetails": "Tennessee Warblers are active foragers that move quickly through foliage in search of insects. They use short flights and rapid movements to cover large areas efficiently.\n\nDuring migration, they may gather in large numbers in areas with abundant food, making them one of the more noticeable warblers despite their plain appearance.",
@@ -824,7 +824,7 @@
 {
   "name": "Nashville Warbler",
   "scientific": "Leiothlypis ruficapilla",
-  "image": "images/nashvillewarbler.jpg",
+  "image": "images/birds/nashvillewarbler.jpg",
   "description": "The Nashville Warbler is a small but energetic songbird that often goes unnoticed despite being fairly common during migration. It has a soft gray head, olive-green back, and bright yellow underparts that give it a gentle but distinctive appearance. Unlike more boldly patterned warblers, it relies on movement and behavior rather than bright markings to stand out. It moves quickly through vegetation, making brief appearances before disappearing again into leaves and branches. This species is most often encountered during spring and fall migration, when it passes through Missouri in search of food and suitable stopover habitats. Its subtle beauty and constant motion make it a rewarding species for patient observers who take the time to watch closely.",
 
   "behaviorDetails": "Nashville Warblers are highly active and rarely remain still for long periods. They forage by moving quickly through shrubs and low tree branches, picking insects from leaves and twigs with quick, precise movements. Their feeding style involves short hops and brief flights, allowing them to cover a large area efficiently.\n\nDuring migration, they frequently join mixed-species flocks, traveling alongside other warblers and small songbirds. This behavior provides added protection and increases feeding success. Despite their activity, they are relatively quiet birds and are often detected by movement rather than sound.",
@@ -841,7 +841,7 @@
 {
   "name": "Chestnut-sided Warbler",
   "scientific": "Setophaga pensylvanica",
-  "image": "images/chestnutsidedwarbler.jpg",
+  "image": "images/birds/chestnutsidedwarbler.jpg",
   "description": "The Chestnut-sided Warbler is a brightly marked and energetic bird known for its yellow crown, crisp white underparts, and bold chestnut streaks along its sides. These markings make it one of the more recognizable warblers during the breeding season. It is especially associated with young forests and brushy habitats, where dense vegetation provides ideal conditions for feeding and nesting. Its presence often signals areas of ecological regrowth, such as abandoned farmland or recently cleared land. This species is active and vocal, frequently announcing its presence with a simple but memorable song. Despite its small size, it is a confident bird that thrives in thick vegetation and constantly moves through its environment.",
 
   "behaviorDetails": "Chestnut-sided Warblers are constantly in motion, hopping and flitting through shrubs and young trees while searching for insects. Their movements are quick and deliberate, often making them difficult to follow visually.\n\nDuring the breeding season, males sing frequently from exposed perches to establish territory and attract mates. Outside of breeding, they may join mixed flocks, especially during migration periods.",
@@ -858,7 +858,7 @@
 {
   "name": "Wilson’s Warbler",
   "scientific": "Cardellina pusilla",
-  "image": "images/wilsonswarbler.jpg",
+  "image": "images/birds/wilsonswarbler.jpg",
   "description": "Wilson’s Warbler is a bright and lively songbird that stands out due to its vivid yellow body and distinctive black cap. Despite its small size, it is one of the more noticeable warblers during migration because of its bold coloration and energetic behavior. It often travels through Missouri in spring and fall, stopping briefly to refuel before continuing its long journey. Unlike some warblers that remain high in the canopy, this species frequently forages at lower levels, making it easier to observe. Its constant movement and bright coloring make it a favorite among birdwatchers. Though small, it plays an important role in controlling insect populations during migration.",
 
   "behaviorDetails": "Wilson’s Warblers are extremely active birds that rarely stay in one place for long. They move rapidly through foliage, searching for insects using quick hops and short flights.\n\nThey often travel in mixed-species flocks during migration, which increases their chances of finding food and avoiding predators. Their bold behavior sometimes brings them close to eye level, allowing for better viewing opportunities.",
@@ -875,7 +875,7 @@
 {
   "name": "Cape May Warbler",
   "scientific": "Setophaga tigrina",
-  "image": "images/capemaywarbler.jpg",
+  "image": "images/birds/capemaywarbler.jpg",
   "description": "The Cape May Warbler is a beautifully patterned songbird known for its yellow face, fine streaking, and chestnut cheek patch. During migration, it passes through Missouri as part of a long journey between northern breeding grounds and tropical wintering areas. Its slightly curved bill and detailed markings give it a unique appearance among warblers. Although small, it is a versatile feeder that is capable of exploiting a variety of food sources. It is especially notable for occasionally feeding on nectar, a behavior that is uncommon among warblers. This flexibility helps sustain it during long migrations. Its combination of subtle elegance and specialized behavior makes it a rewarding species to observe.",
 
   "behaviorDetails": "Cape May Warblers forage actively in the canopy, moving through branches and leaves while searching for insects. Their movements are steady and purposeful, often pausing briefly before continuing.\n\nThey are one of the few warblers that supplement their diet with nectar, especially during migration. This behavior provides additional energy and allows them to take advantage of flowering plants when insects are scarce.",
@@ -892,7 +892,7 @@
 {
   "name": "Chipping Sparrow",
   "scientific": "Spizella passerina",
-  "image": "images/chippingsparrow.jpg",
+  "image": "images/birds/chippingsparrow.jpg",
   "description": "The Chipping Sparrow is a small, slender bird with a clean, crisp appearance marked by a rusty crown, black eye line, and pale gray underparts. It is one of the most familiar sparrows in North America, especially during the summer breeding season. This species is commonly found in open woodlands, parks, and suburban areas, where it thrives near human activity. Its simple, steady trill is a defining sound of summer landscapes. Despite its modest coloration, it is easily recognized by its posture and behavior. It frequently hops along the ground or perches in low branches, making it easy to observe. Its adaptability and abundance make it a key species in many environments.",
 
   "behaviorDetails": "Chipping Sparrows forage primarily on the ground, searching for seeds and insects in open areas. They move with quick hops and often pause to scan their surroundings for danger.\n\nDuring the breeding season, males sing frequently from exposed perches. Their rapid trill is consistent and easily recognizable, especially in the early morning hours.",
@@ -909,7 +909,7 @@
 {
   "name": "Clay-colored Sparrow",
   "scientific": "Spizella pallida",
-  "image": "images/claycoloredsparrow.jpg",
+  "image": "images/birds/claycoloredsparrow.jpg",
   "description": "The Clay-colored Sparrow is a pale, delicately patterned bird that blends easily into its surroundings. Its subtle facial markings and light brown tones give it a gentle, understated appearance. It is most often seen during migration, when it passes through Missouri in search of suitable feeding areas. Because of its quiet nature and muted colors, it is frequently overlooked by casual observers. However, its presence can be detected through careful observation of movement in open habitats. It represents one of the many sparrow species that rely on subtlety and camouflage for survival.",
 
   "behaviorDetails": "Clay-colored Sparrows forage quietly on the ground, searching for seeds and insects among grasses and low vegetation. Their movements are slow and cautious, allowing them to remain concealed.\n\nThey are generally less vocal than other sparrows and rely more on subtle motion than sound to avoid detection. This makes them challenging to observe without patience.",
@@ -926,7 +926,7 @@
 {
   "name": "Henslow’s Sparrow",
   "scientific": "Centronyx henslowii",
-  "image": "images/henslowssparrow.jpg",
+  "image": "images/birds/henslowssparrow.jpg",
   "description": "Henslow’s Sparrow is one of the most secretive and specialized grassland birds in North America. It inhabits tall, dense grasslands where it is rarely seen, often remaining hidden within thick vegetation. Its subtle coloration allows it to blend perfectly into its surroundings, making visual detection difficult. Even its song is faint and easily overlooked, resembling an insect-like sound. Despite these challenges, it plays an important role as an indicator of high-quality grassland habitat. Its presence suggests that an area has remained relatively undisturbed and ecologically healthy. Conservation of these habitats is essential for the survival of this species.",
 
   "behaviorDetails": "Henslow’s Sparrows spend most of their time concealed within tall grasses, emerging only briefly to forage or sing.\n\nThey rely heavily on camouflage and stillness to avoid predators. Their quiet song is often the only clue to their presence, making them a species that is more often heard than seen.",
@@ -943,7 +943,7 @@
 {
   "name": "Grasshopper Sparrow",
   "scientific": "Ammodramus savannarum",
-  "image": "images/grasshoppersparrow.jpg",
+  "image": "images/birds/grasshoppersparrow.jpg",
   "description": "The Grasshopper Sparrow is a small, pale bird named for its insect-like buzzing song. Its streaked plumage provides excellent camouflage in grassland environments, allowing it to blend into its surroundings. It is often difficult to see unless it moves or sings. This species is closely tied to open prairie habitats and is an important indicator of grassland health. Its quiet nature and reliance on camouflage make it a subtle but fascinating bird to observe. Despite its small size, it plays an important ecological role in controlling insect populations.",
 
   "behaviorDetails": "Grasshopper Sparrows forage on the ground, feeding on insects and seeds while moving through grasses.\n\nThey rely on camouflage and often remain still when threatened, making them difficult to detect. Their buzzing song is often the best clue to their presence.",
@@ -960,7 +960,7 @@
 {
   "name": "Vesper Sparrow",
   "scientific": "Pooecetes gramineus",
-  "image": "images/vespersparrow.jpg",
+  "image": "images/birds/vespersparrow.jpg",
   "description": "The Vesper Sparrow is a medium-sized sparrow with subtle brown tones and distinctive white outer tail feathers that are visible in flight. It is often found in open fields and farmland, where it blends into the landscape. Its name comes from its tendency to sing in the evening, producing a soft and pleasant song. Though not brightly colored, it is a graceful and important part of open-country ecosystems. Its quiet presence and evening song make it a unique species among sparrows.",
 
   "behaviorDetails": "Vesper Sparrows forage on the ground, feeding on seeds and insects while moving through open areas.\n\nThey are typically solitary or found in small groups. Their evening song is a defining characteristic and is often heard at dusk.",
@@ -977,7 +977,7 @@
 {
   "name": "Lincoln’s Sparrow",
   "scientific": "Melospiza lincolnii",
-  "image": "images/lincolnssparrow.jpg",
+  "image": "images/birds/lincolnssparrow.jpg",
   "description": "Lincoln’s Sparrow is a finely streaked bird with a buff-colored chest and delicate facial markings. It is a shy and secretive species that is most often observed during migration. Its subtle beauty and quiet nature make it a favorite among experienced birdwatchers. Unlike more common sparrows, it prefers dense vegetation and avoids open exposure. This behavior makes it difficult to detect without careful observation. Its presence adds diversity to wetland and meadow ecosystems.",
 
   "behaviorDetails": "Lincoln’s Sparrows forage quietly in dense vegetation, searching for seeds and insects while staying hidden.\n\nThey move slowly and cautiously, often remaining out of sight. Their soft calls and subtle movements make them difficult to detect.",
@@ -994,7 +994,7 @@
 {
   "name": "White-crowned Sparrow",
   "scientific": "Zonotrichia leucophrys",
-  "image": "images/whitecrownedsparrow.jpg",
+  "image": "images/birds/whitecrownedsparrow.jpg",
   "description": "Boldly striped sparrow with black and white head markings. It is a common winter visitor and is often seen in open fields and brushy areas.",
   "behaviorDetails": "White-crowned Sparrows forage on the ground for seeds and insects, often in small groups.\n\nThey are relatively bold and may be seen near feeders during winter months.",
   "habitatDetails": "They prefer fields, brushy areas, and open habitats with nearby cover.\n\nThey are common across Missouri during winter, especially in rural and suburban environments.",
@@ -1008,7 +1008,7 @@
 {
   "name": "Lark Sparrow",
   "scientific": "Chondestes grammacus",
-  "image": "images/larksparrow.jpg",
+  "image": "images/birds/larksparrow.jpg",
   "description": "Striking sparrow with a boldly patterned face and chest. It is often found in open habitats during the summer breeding season.",
   "behaviorDetails": "Lark Sparrows forage on the ground, feeding on seeds and insects.\n\nThey are often seen walking or hopping across open areas and may sing from low perches.",
   "habitatDetails": "They prefer open fields, grasslands, and areas with scattered trees.\n\nThey are commonly found in rural areas and pastures during the summer months.",
@@ -1022,7 +1022,7 @@
 {
   "name": "LeConte’s Sparrow",
   "scientific": "Ammospiza leconteii",
-  "image": "images/lecontessparrow.jpg",
+  "image": "images/birds/lecontessparrow.jpg",
   "description": "Small sparrow with an orange face and fine streaking. It is a rare migrant and difficult to spot due to its secretive behavior.",
   "behaviorDetails": "LeConte’s Sparrows are extremely secretive and spend most of their time hidden in dense grasses.\n\nThey rarely fly unless flushed and rely heavily on camouflage for protection.",
   "habitatDetails": "They prefer wet grasslands and marshy areas.\n\nThey are seen in Missouri mainly during migration, stopping briefly in suitable habitats.",
@@ -1036,7 +1036,7 @@
 {
   "name": "Harris’s Sparrow",
   "scientific": "Zonotrichia querula",
-  "image": "images/harrissparrow.jpg",
+  "image": "images/birds/harrissparrow.jpg",
   "description": "Large sparrow with a distinctive black face and throat. It is a winter visitor and is often found in brushy habitats.",
   "behaviorDetails": "Harris’s Sparrows forage on the ground for seeds and insects, often in loose flocks.\n\nThey are relatively tame and may approach feeders during winter months.",
   "habitatDetails": "They prefer brushy areas, hedgerows, and open fields with nearby cover.\n\nThey are most commonly seen in Missouri during winter and migration periods.",
@@ -1050,7 +1050,7 @@
 {
   "name": "Canvasback",
   "scientific": "Aythya valisineria",
-  "image": "images/canvasback.jpg",
+  "image": "images/birds/canvasback.jpg",
   "description": "Large diving duck with a distinctive sloping forehead and long neck. It is often seen on lakes during migration and is known for its strong swimming ability.",
   "behaviorDetails": "Canvasbacks are diving ducks that feed by submerging completely underwater to reach aquatic plants.\n\nThey are strong swimmers and often gather in large flocks on open water during migration.",
   "habitatDetails": "They prefer large lakes and open water habitats.\n\nThey are most commonly seen in Missouri during migration, stopping at suitable lakes and reservoirs.",
@@ -1065,7 +1065,7 @@
   {
     "name": "Redhead",
     "scientific": "Aythya americana",
-    "image": "images/redhead.jpg",
+    "image": "images/birds/redhead.jpg",
     "description": "Diving duck with a reddish head. Found in lakes during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1077,7 +1077,7 @@
   {
     "name": "Ring-necked Duck",
     "scientific": "Aythya collaris",
-    "image": "images/ringneckedduck.jpg",
+    "image": "images/birds/ringneckedduck.jpg",
     "description": "Dark duck with a subtle neck ring. Common during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1089,7 +1089,7 @@
   {
     "name": "Lesser Scaup",
     "scientific": "Aythya affinis",
-    "image": "images/lesserscaup.jpg",
+    "image": "images/birds/lesserscaup.jpg",
     "description": "Diving duck with a blue bill. Seen in large flocks during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1101,7 +1101,7 @@
   {
     "name": "Bufflehead",
     "scientific": "Bucephala albeola",
-    "image": "images/bufflehead.jpg",
+    "image": "images/birds/bufflehead.jpg",
     "description": "Small diving duck with a large white head patch. Seen in winter.",
     "type": "Waterfowl",
     "season": "Winter",
@@ -1113,7 +1113,7 @@
   {
     "name": "Hooded Merganser",
     "scientific": "Lophodytes cucullatus",
-    "image": "images/hoodedmerganser.jpg",
+    "image": "images/birds/hoodedmerganser.jpg",
     "description": "Small duck with a fan-shaped crest. Found in wooded wetlands.",
     "type": "Waterfowl",
     "season": "Resident",
@@ -1125,7 +1125,7 @@
   {
     "name": "Common Merganser",
     "scientific": "Mergus merganser",
-    "image": "images/commonmerganser.jpg",
+    "image": "images/birds/commonmerganser.jpg",
     "description": "Large fish-eating duck with a narrow bill. Seen in winter.",
     "type": "Waterfowl",
     "season": "Winter",
@@ -1137,7 +1137,7 @@
   {
     "name": "Ruddy Duck",
     "scientific": "Oxyura jamaicensis",
-    "image": "images/ruddyduck.jpg",
+    "image": "images/birds/ruddyduck.jpg",
     "description": "Small stiff-tailed duck. Males have bright blue bills.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1149,7 +1149,7 @@
   {
     "name": "Trumpeter Swan",
     "scientific": "Cygnus buccinator",
-    "image": "images/trumpeterswan.jpg",
+    "image": "images/birds/trumpeterswan.jpg",
     "description": "Large white swan with a loud call. Seen in Missouri during winter.",
     "type": "Waterfowl",
     "season": "Winter",
@@ -1161,7 +1161,7 @@
   {
     "name": "Tundra Swan",
     "scientific": "Cygnus columbianus",
-    "image": "images/tundraswan.jpg",
+    "image": "images/birds/tundraswan.jpg",
     "description": "White swan similar to the Trumpeter. Seen during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1173,7 +1173,7 @@
   {
     "name": "Golden Eagle",
     "scientific": "Aquila chrysaetos",
-    "image": "images/goldeneagle.jpg",
+    "image": "images/birds/goldeneagle.jpg",
     "description": "Large dark eagle rarely seen in Missouri. Occurs mainly in winter.",
     "type": "Raptor",
     "season": "Winter",
@@ -1185,7 +1185,7 @@
   {
     "name": "Swainson’s Hawk",
     "scientific": "Buteo swainsoni",
-    "image": "images/swainsonshawk.jpg",
+    "image": "images/birds/swainsonshawk.jpg",
     "description": "Long-winged hawk seen in open areas. Rare migrant in Missouri.",
     "type": "Raptor",
     "season": "Migratory",
@@ -1197,7 +1197,7 @@
   {
     "name": "Ferruginous Hawk",
     "scientific": "Buteo regalis",
-    "image": "images/ferruginoushawk.jpg",
+    "image": "images/birds/ferruginoushawk.jpg",
     "description": "Large pale hawk of open country. Rare visitor to Missouri.",
     "type": "Raptor",
     "season": "Winter",
@@ -1209,7 +1209,7 @@
   {
     "name": "Black Vulture",
     "scientific": "Coragyps atratus",
-    "image": "images/blackvulture.jpg",
+    "image": "images/birds/blackvulture.jpg",
     "description": "Dark vulture with short tail. Increasing in Missouri.",
     "type": "Raptor",
     "season": "Resident",
@@ -1221,7 +1221,7 @@
   {
     "name": "Northern Goshawk",
     "scientific": "Accipiter gentilis",
-    "image": "images/northerngoshawk.jpg",
+    "image": "images/birds/northerngoshawk.jpg",
     "description": "Powerful forest hawk. Rare and irregular in Missouri.",
     "type": "Raptor",
     "season": "Irruptive",
@@ -1233,7 +1233,7 @@
   {
     "name": "Long-eared Owl",
     "scientific": "Asio otus",
-    "image": "images/longearedowl.jpg",
+    "image": "images/birds/longearedowl.jpg",
     "description": "Medium owl with long ear tufts. Secretive and seen mainly in winter.",
     "type": "Raptor",
     "season": "Winter",
@@ -1245,7 +1245,7 @@
   {
     "name": "Burrowing Owl",
     "scientific": "Athene cunicularia",
-    "image": "images/burrowingowl.jpg",
+    "image": "images/birds/burrowingowl.jpg",
     "description": "Small ground-dwelling owl. Rare visitor to Missouri.",
     "type": "Raptor",
     "season": "Migratory",
@@ -1257,7 +1257,7 @@
   {
     "name": "Great Gray Owl",
     "scientific": "Strix nebulosa",
-    "image": "images/greatgrayowl.jpg",
+    "image": "images/birds/greatgrayowl.jpg",
     "description": "Large northern owl. Extremely rare in Missouri.",
     "type": "Raptor",
     "season": "Irruptive",
@@ -1269,7 +1269,7 @@
   {
     "name": "Barn Owl",
     "scientific": "Tyto alba",
-    "image": "images/barnowl.jpg",
+    "image": "images/birds/barnowl.jpg",
     "description": "Pale owl with a heart-shaped face. Rare but present in Missouri.",
     "type": "Raptor",
     "season": "Resident",
@@ -1281,7 +1281,7 @@
   {
     "name": "Elf Owl",
     "scientific": "Micrathene whitneyi",
-    "image": "images/elfowl.jpg",
+    "image": "images/birds/elfowl.jpg",
     "description": "Tiny owl rarely recorded in Missouri. Considered an accidental visitor.",
     "type": "Raptor",
     "season": "Irruptive",
@@ -1293,7 +1293,7 @@
   {
     "name": "Eastern Towhee",
     "scientific": "Pipilo erythrophthalmus",
-    "image": "images/easterntowhee.jpg",
+    "image": "images/birds/easterntowhee.jpg",
     "description": "Black and orange bird that scratches in leaf litter. Common in brushy areas.",
     "type": "Songbird",
     "season": "Resident",
@@ -1305,7 +1305,7 @@
   {
     "name": "Bobolink",
     "scientific": "Dolichonyx oryzivorus",
-    "image": "images/bobolink.jpg",
+    "image": "images/birds/bobolink.jpg",
     "description": "Black and white bird with a bubbly song. Found in grasslands during summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -1317,7 +1317,7 @@
   {
     "name": "Orchard Oriole",
     "scientific": "Icterus spurius",
-    "image": "images/orchardoriole.jpg",
+    "image": "images/birds/orchardoriole.jpg",
     "description": "Smaller oriole with chestnut coloring. Seen in summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -1329,7 +1329,7 @@
   {
     "name": "Yellow-headed Blackbird",
     "scientific": "Xanthocephalus xanthocephalus",
-    "image": "images/yellowheadedblackbird.jpg",
+    "image": "images/birds/yellowheadedblackbird.jpg",
     "description": "Blackbird with a bright yellow head. Seen in wetlands during migration.",
     "type": "Songbird",
     "season": "Migratory",
@@ -1341,7 +1341,7 @@
   {
     "name": "Rusty Blackbird",
     "scientific": "Euphagus carolinus",
-    "image": "images/rustyblackbird.jpg",
+    "image": "images/birds/rustyblackbird.jpg",
     "description": "Dark bird with rusty edges in winter. Seen near wetlands.",
     "type": "Songbird",
     "season": "Winter",
@@ -1353,7 +1353,7 @@
   {
     "name": "Common Loon",
     "scientific": "Gavia immer",
-    "image": "images/commonloon.jpg",
+    "image": "images/birds/commonloon.jpg",
     "description": "Diving bird with a haunting call. Seen on lakes during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1365,7 +1365,7 @@
   {
     "name": "Horned Grebe",
     "scientific": "Podiceps auritus",
-    "image": "images/hornedgrebe.jpg",
+    "image": "images/birds/hornedgrebe.jpg",
     "description": "Small diving bird with red eyes. Seen during migration and winter.",
     "type": "Waterfowl",
     "season": "Winter",
@@ -1377,7 +1377,7 @@
   {
     "name": "Pied-billed Grebe",
     "scientific": "Podilymbus podiceps",
-    "image": "images/piedbilledgrebe.jpg",
+    "image": "images/birds/piedbilledgrebe.jpg",
     "description": "Small brown diving bird with a thick bill. Found in wetlands.",
     "type": "Waterfowl",
     "season": "Resident",
@@ -1389,7 +1389,7 @@
   {
     "name": "American Coot",
     "scientific": "Fulica americana",
-    "image": "images/americancoot.jpg",
+    "image": "images/birds/americancoot.jpg",
     "description": "Dark waterbird with a white bill. Common in ponds and lakes.",
     "type": "Waterfowl",
     "season": "Resident",
@@ -1401,7 +1401,7 @@
   {
     "name": "Sora",
     "scientific": "Porzana carolina",
-    "image": "images/sora.jpg",
+    "image": "images/birds/sora.jpg",
     "description": "Small rail with a short yellow bill. Found in marshes during migration.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1413,7 +1413,7 @@
   {
     "name": "Summer Tanager",
     "scientific": "Piranga rubra",
-    "image": "images/summertanager.jpg",
+    "image": "images/birds/summertanager.jpg",
     "description": "Bright red songbird found in open woodlands. Known for eating bees and wasps.",
     "type": "Songbird",
     "season": "Summer",
@@ -1425,7 +1425,7 @@
   {
     "name": "Great Blue Heron",
     "scientific": "Ardea herodias",
-    "image": "images/greatblueheron.jpg",
+    "image": "images/birds/greatblueheron.jpg",
     "description": "Tall wading bird with long legs and neck. Common near lakes, rivers, and wetlands.",
     "type": "Shorebird",
     "season": "Resident",
@@ -1437,7 +1437,7 @@
   {
     "name": "Green Heron",
     "scientific": "Butorides virescens",
-    "image": "images/greenheron.jpg",
+    "image": "images/birds/greenheron.jpg",
     "description": "Small heron with a dark green back. Often seen quietly hunting near water.",
     "type": "Shorebird",
     "season": "Summer",
@@ -1449,7 +1449,7 @@
   {
     "name": "Killdeer",
     "scientific": "Charadrius vociferus",
-    "image": "images/killdeer.jpg",
+    "image": "images/birds/killdeer.jpg",
     "description": "Brown shorebird with two black chest bands. Known for its loud call and broken-wing display.",
     "type": "Shorebird",
     "season": "Resident",
@@ -1461,7 +1461,7 @@
   {
     "name": "Eastern Phoebe",
     "scientific": "Sayornis phoebe",
-    "image": "images/easternphoebe.jpg",
+    "image": "images/birds/easternphoebe.jpg",
     "description": "Small gray flycatcher that wags its tail. Often nests on buildings and bridges.",
     "type": "Songbird",
     "season": "Summer",
@@ -1473,7 +1473,7 @@
   {
     "name": "Great Crested Flycatcher",
     "scientific": "Myiarchus crinitus",
-    "image": "images/greatcrestedflycatcher.jpg",
+    "image": "images/birds/greatcrestedflycatcher.jpg",
     "description": "Olive-brown bird with a yellow belly. Found in wooded areas during summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -1485,7 +1485,7 @@
   {
     "name": "Indigo Bunting",
     "scientific": "Passerina cyanea",
-    "image": "images/indigobunting.jpg",
+    "image": "images/birds/indigobunting.jpg",
     "description": "Bright blue songbird seen in open fields and edges.",
     "type": "Songbird",
     "season": "Summer",
@@ -1497,7 +1497,7 @@
   {
     "name": "Scarlet Tanager",
     "scientific": "Piranga olivacea",
-    "image": "images/scarlettanager.jpg",
+    "image": "images/birds/scarlettanager.jpg",
     "description": "Brilliant red bird with black wings. Found in forests during summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -1509,7 +1509,7 @@
   {
     "name": "Pileated Woodpecker",
     "scientific": "Dryocopus pileatus",
-    "image": "images/pileatedwoodpecker.jpg",
+    "image": "images/birds/pileatedwoodpecker.jpg",
     "description": "Large woodpecker with a red crest. Leaves big rectangular holes in trees.",
     "type": "Woodpecker",
     "season": "Resident",
@@ -1521,7 +1521,7 @@
   {
     "name": "Osprey",
     "scientific": "Pandion haliaetus",
-    "image": "images/osprey.jpg",
+    "image": "images/birds/osprey.jpg",
     "description": "Large fish-eating raptor often seen diving into water.",
     "type": "Raptor",
     "season": "Migratory",
@@ -1533,7 +1533,7 @@
   {
     "name": "Great Horned Owl",
     "scientific": "Bubo virginianus",
-    "image": "images/greathornedowl.jpg",
+    "image": "images/birds/greathornedowl.jpg",
     "description": "Large owl with prominent ear tufts and deep hooting calls.",
     "type": "Raptor",
     "season": "Resident",
@@ -1545,7 +1545,7 @@
   {
     "name": "Barred Owl",
     "scientific": "Strix varia",
-    "image": "images/barredowl.jpg",
+    "image": "images/birds/barredowl.jpg",
     "description": "Brown owl with distinctive call. Common in wooded areas near water.",
     "type": "Raptor",
     "season": "Resident",
@@ -1557,7 +1557,7 @@
   {
     "name": "Belted Kingfisher",
     "scientific": "Megaceryle alcyon",
-    "image": "images/beltedkingfisher.jpg",
+    "image": "images/birds/beltedkingfisher.jpg",
     "description": "Stocky bird with a large bill and shaggy crest.",
     "type": "Songbird",
     "season": "Resident",
@@ -1569,7 +1569,7 @@
   {
     "name": "Eastern Kingbird",
     "scientific": "Tyrannus tyrannus",
-    "image": "images/easternkingbird.jpg",
+    "image": "images/birds/easternkingbird.jpg",
     "description": "Black and white flycatcher known for defending its territory.",
     "type": "Songbird",
     "season": "Summer",
@@ -1581,7 +1581,7 @@
   {
     "name": "Loggerhead Shrike",
     "scientific": "Lanius ludovicianus",
-    "image": "images/loggerheadshrike.jpg",
+    "image": "images/birds/loggerheadshrike.jpg",
     "description": "Gray bird with a black mask known for impaling prey.",
     "type": "Songbird",
     "season": "Resident",
@@ -1593,7 +1593,7 @@
   {
     "name": "American Kestrel",
     "scientific": "Falco sparverius",
-    "image": "images/americankestrel.jpg",
+    "image": "images/birds/americankestrel.jpg",
     "description": "Small colorful falcon often seen hovering over fields.",
     "type": "Raptor",
     "season": "Resident",
@@ -1605,7 +1605,7 @@
   {
     "name": "Peregrine Falcon",
     "scientific": "Falco peregrinus",
-    "image": "images/peregrinefalcon.jpg",
+    "image": "images/birds/peregrinefalcon.jpg",
     "description": "Fastest bird in the world, known for high-speed dives.",
     "type": "Raptor",
     "season": "Migratory",
@@ -1617,7 +1617,7 @@
   {
     "name": "Turkey Vulture",
     "scientific": "Cathartes aura",
-    "image": "images/turkeyvulture.jpg",
+    "image": "images/birds/turkeyvulture.jpg",
     "description": "Large dark bird that soars on thermals.",
     "type": "Raptor",
     "season": "Resident",
@@ -1629,7 +1629,7 @@
   {
     "name": "Northern Flicker",
     "scientific": "Colaptes auratus",
-    "image": "images/northernflicker.jpg",
+    "image": "images/birds/northernflicker.jpg",
     "description": "Brown woodpecker with black spots and a white rump.",
     "type": "Woodpecker",
     "season": "Resident",
@@ -1641,7 +1641,7 @@
   {
     "name": "Red-headed Woodpecker",
     "scientific": "Melanerpes erythrocephalus",
-    "image": "images/redheadedwoodpecker.jpg",
+    "image": "images/birds/redheadedwoodpecker.jpg",
     "description": "Striking woodpecker with a bright red head.",
     "type": "Woodpecker",
     "season": "Resident",
@@ -1653,7 +1653,7 @@
   {
     "name": "Yellow-bellied Sapsucker",
     "scientific": "Sphyrapicus varius",
-    "image": "images/yellowbelliedsapsucker.jpg",
+    "image": "images/birds/yellowbelliedsapsucker.jpg",
     "description": "Woodpecker that drills neat rows of sap wells in trees.",
     "type": "Woodpecker",
     "season": "Migratory",
@@ -1665,7 +1665,7 @@
   {
     "name": "House Wren",
     "scientific": "Troglodytes aedon",
-    "image": "images/housewren.jpg",
+    "image": "images/birds/housewren.jpg",
     "description": "Small brown bird with a bubbly song.",
     "type": "Songbird",
     "season": "Summer",
@@ -1677,7 +1677,7 @@
   {
     "name": "Marsh Wren",
     "scientific": "Cistothorus palustris",
-    "image": "images/marshwren.jpg",
+    "image": "images/birds/marshwren.jpg",
     "description": "Tiny wren found in wetlands.",
     "type": "Songbird",
     "season": "Summer",
@@ -1689,7 +1689,7 @@
   {
     "name": "Golden-crowned Kinglet",
     "scientific": "Regulus satrapa",
-    "image": "images/goldencrownedkinglet.jpg",
+    "image": "images/birds/goldencrownedkinglet.jpg",
     "description": "Very small bird with a bright yellow crown stripe.",
     "type": "Songbird",
     "season": "Winter",
@@ -1701,7 +1701,7 @@
   {
     "name": "Red-bellied Woodpecker",
     "scientific": "Melanerpes carolinus",
-    "image": "images/redbelliedwoodpecker.jpg",
+    "image": "images/birds/redbelliedwoodpecker.jpg",
     "description": "Medium-sized woodpecker with a red cap.",
     "type": "Woodpecker",
     "season": "Resident",
@@ -1713,7 +1713,7 @@
   {
     "name": "Eastern Wood-Pewee",
     "scientific": "Contopus virens",
-    "image": "images/easternwoodpewee.jpg",
+    "image": "images/birds/easternwoodpewee.jpg",
     "description": "Small gray flycatcher with a soft call.",
     "type": "Songbird",
     "season": "Summer",
@@ -1725,7 +1725,7 @@
   {
     "name": "Acadian Flycatcher",
     "scientific": "Empidonax virescens",
-    "image": "images/acadianflycatcher.jpg",
+    "image": "images/birds/acadianflycatcher.jpg",
     "description": "Greenish flycatcher with a sharp call.",
     "type": "Songbird",
     "season": "Summer",
@@ -1737,7 +1737,7 @@
   {
     "name": "Great Egret",
     "scientific": "Ardea alba",
-    "image": "images/greategret.jpg",
+    "image": "images/birds/greategret.jpg",
     "description": "Large white wading bird.",
     "type": "Shorebird",
     "season": "Summer",
@@ -1749,7 +1749,7 @@
   {
     "name": "Snowy Egret",
     "scientific": "Egretta thula",
-    "image": "images/snowyegret.jpg",
+    "image": "images/birds/snowyegret.jpg",
     "description": "Elegant white egret with yellow feet.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1761,7 +1761,7 @@
   {
     "name": "Cattle Egret",
     "scientific": "Bubulcus ibis",
-    "image": "images/cattleegret.jpg",
+    "image": "images/birds/cattleegret.jpg",
     "description": "Stocky white egret often seen with livestock.",
     "type": "Shorebird",
     "season": "Summer",
@@ -1773,7 +1773,7 @@
   {
     "name": "Double-crested Cormorant",
     "scientific": "Nannopterum auritum",
-    "image": "images/doublecrestedcormorant.jpg",
+    "image": "images/birds/doublecrestedcormorant.jpg",
     "description": "Dark waterbird often seen drying its wings.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -1785,7 +1785,7 @@
   {
     "name": "European Starling",
     "scientific": "Sturnus vulgaris",
-    "image": "images/europeanstarling.jpg",
+    "image": "images/birds/europeanstarling.jpg",
     "description": "Glossy black bird known for mimicking sounds.",
     "type": "Songbird",
     "season": "Resident",
@@ -1797,7 +1797,7 @@
   {
     "name": "Brown-headed Cowbird",
     "scientific": "Molothrus ater",
-    "image": "images/brownheadedcowbird.jpg",
+    "image": "images/birds/brownheadedcowbird.jpg",
     "description": "Bird known for laying eggs in other nests.",
     "type": "Songbird",
     "season": "Resident",
@@ -1809,7 +1809,7 @@
   {
     "name": "Eastern Meadowlark",
     "scientific": "Sturnella magna",
-    "image": "images/easternmeadowlark.jpg",
+    "image": "images/birds/easternmeadowlark.jpg",
     "description": "Yellow-breasted bird with a black V marking.",
     "type": "Songbird",
     "season": "Resident",
@@ -1821,7 +1821,7 @@
   {
     "name": "Western Meadowlark",
     "scientific": "Sturnella neglecta",
-    "image": "images/westernmeadowlark.jpg",
+    "image": "images/birds/westernmeadowlark.jpg",
     "description": "Similar to Eastern Meadowlark but more musical.",
     "type": "Songbird",
     "season": "Migratory",
@@ -1833,7 +1833,7 @@
   {
     "name": "Northern Harrier",
     "scientific": "Circus hudsonius",
-    "image": "images/northernharrier.jpg",
+    "image": "images/birds/northernharrier.jpg",
     "description": "Slim hawk with a white rump patch.",
     "type": "Raptor",
     "season": "Winter",
@@ -1845,7 +1845,7 @@
   {
     "name": "Rough-legged Hawk",
     "scientific": "Buteo lagopus",
-    "image": "images/roughleggedhawk.jpg",
+    "image": "images/birds/roughleggedhawk.jpg",
     "description": "Large hawk with feathered legs.",
     "type": "Raptor",
     "season": "Winter",
@@ -1857,7 +1857,7 @@
   {
     "name": "Common Nighthawk",
     "scientific": "Chordeiles minor",
-    "image": "images/commonnighthawk.jpg",
+    "image": "images/birds/commonnighthawk.jpg",
     "description": "Night-flying bird seen catching insects at dusk.",
     "type": "Songbird",
     "season": "Summer",
@@ -1869,7 +1869,7 @@
   {
     "name": "Chuck-will's-widow",
     "scientific": "Antrostomus carolinensis",
-    "image": "images/chuckwillswidow.jpg",
+    "image": "images/birds/chuckwillswidow.jpg",
     "description": "Nocturnal bird with a repetitive call.",
     "type": "Songbird",
     "season": "Summer",
@@ -1881,7 +1881,7 @@
   {
     "name": "Whip-poor-will",
     "scientific": "Antrostomus vociferus",
-    "image": "images/whippoorwill.jpg",
+    "image": "images/birds/whippoorwill.jpg",
     "description": "Night bird known for its repetitive call.",
     "type": "Songbird",
     "season": "Summer",
@@ -1893,7 +1893,7 @@
   {
     "name": "Ring-billed Gull",
     "scientific": "Larus delawarensis",
-    "image": "images/ringbilledgull.jpg",
+    "image": "images/birds/ringbilledgull.jpg",
     "description": "Common gull with a black ring on its bill.",
     "type": "Shorebird",
     "season": "Winter",
@@ -1905,7 +1905,7 @@
   {
     "name": "Herring Gull",
     "scientific": "Larus argentatus",
-    "image": "images/herringgull.jpg",
+    "image": "images/birds/herringgull.jpg",
     "description": "Large gull with a heavy bill.",
     "type": "Shorebird",
     "season": "Winter",
@@ -1917,7 +1917,7 @@
   {
     "name": "Bonaparte’s Gull",
     "scientific": "Chroicocephalus philadelphia",
-    "image": "images/bonapartesgull.jpg",
+    "image": "images/birds/bonapartesgull.jpg",
     "description": "Small graceful gull.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1929,7 +1929,7 @@
   {
     "name": "Forster’s Tern",
     "scientific": "Sterna forsteri",
-    "image": "images/forsterstern.jpg",
+    "image": "images/birds/forsterstern.jpg",
     "description": "Slender tern often seen diving for fish.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1941,7 +1941,7 @@
   {
     "name": "Common Tern",
     "scientific": "Sterna hirundo",
-    "image": "images/commontern.jpg",
+    "image": "images/birds/commontern.jpg",
     "description": "Streamlined tern with a forked tail and sharp bill. Seen near water during migration.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1953,7 +1953,7 @@
   {
     "name": "Black Tern",
     "scientific": "Chlidonias niger",
-    "image": "images/blacktern.jpg",
+    "image": "images/birds/blacktern.jpg",
     "description": "Dark-bodied tern seen in wetlands. Often hovers over water to catch insects.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1965,7 +1965,7 @@
   {
     "name": "Black-crowned Night Heron",
     "scientific": "Nycticorax nycticorax",
-    "image": "images/blackcrownednightheron.jpg",
+    "image": "images/birds/blackcrownednightheron.jpg",
     "description": "Stocky heron active at dusk and night. Found near wetlands and rivers.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -1977,7 +1977,7 @@
   {
     "name": "Yellow-crowned Night Heron",
     "scientific": "Nyctanassa violacea",
-    "image": "images/yellowcrownednightheron.jpg",
+    "image": "images/birds/yellowcrownednightheron.jpg",
     "description": "Nocturnal heron with a pale crown. Feeds on crustaceans in shallow water.",
     "type": "Shorebird",
     "season": "Summer",
@@ -1989,7 +1989,7 @@
   {
     "name": "White Ibis",
     "scientific": "Eudocimus albus",
-    "image": "images/whiteibis.jpg",
+    "image": "images/birds/whiteibis.jpg",
     "description": "White wading bird with a long curved bill. Rare visitor to Missouri.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -2001,7 +2001,7 @@
   {
     "name": "Glossy Ibis",
     "scientific": "Plegadis falcinellus",
-    "image": "images/glossyibis.jpg",
+    "image": "images/birds/glossyibis.jpg",
     "description": "Dark ibis with iridescent plumage. Occasionally seen in wetlands during migration.",
     "type": "Shorebird",
     "season": "Migratory",
@@ -2013,7 +2013,7 @@
   {
     "name": "American White Pelican",
     "scientific": "Pelecanus erythrorhynchos",
-    "image": "images/americanwhitepelican.jpg",
+    "image": "images/birds/americanwhitepelican.jpg",
     "description": "Large white bird with a massive bill. Seen on lakes during migration.",
     "type": "Waterfowl",
     "season": "Migratory",
@@ -2025,7 +2025,7 @@
   {
     "name": "Brown Pelican",
     "scientific": "Pelecanus occidentalis",
-    "image": "images/brownpelican.jpg",
+    "image": "images/birds/brownpelican.jpg",
     "description": "Coastal pelican rarely seen inland. Very rare visitor to Missouri.",
     "type": "Waterfowl",
     "season": "Irruptive",
@@ -2037,7 +2037,7 @@
   {
     "name": "Neotropic Cormorant",
     "scientific": "Nannopterum brasilianum",
-    "image": "images/neotropiccormorant.jpg",
+    "image": "images/birds/neotropiccormorant.jpg",
     "description": "Smaller cormorant with a long tail. Occasionally seen with other cormorants.",
     "type": "Waterfowl",
     "season": "Irruptive",
@@ -2049,7 +2049,7 @@
   {
     "name": "Anhinga",
     "scientific": "Anhinga anhinga",
-    "image": "images/anhinga.jpg",
+    "image": "images/birds/anhinga.jpg",
     "description": "Snake-like waterbird that swims with only its neck above water. Rare in Missouri.",
     "type": "Waterfowl",
     "season": "Irruptive",
@@ -2061,7 +2061,7 @@
   {
     "name": "Black-bellied Whistling-Duck",
     "scientific": "Dendrocygna autumnalis",
-    "image": "images/blackbelliedwhistlingduck.jpg",
+    "image": "images/birds/blackbelliedwhistlingduck.jpg",
     "description": "Long-legged duck with a whistling call. Increasingly seen in southern Missouri.",
     "type": "Waterfowl",
     "season": "Summer",
@@ -2073,7 +2073,7 @@
   {
     "name": "House Finch",
     "scientific": "Haemorhous mexicanus",
-    "image": "images/housefinch.jpg",
+    "image": "images/birds/housefinch.jpg",
     "description": "Small finch with a red face and chest. Common at feeders and in urban areas.",
     "type": "Songbird",
     "season": "Resident",
@@ -2085,7 +2085,7 @@
   {
     "name": "Pine Siskin",
     "scientific": "Spinus pinus",
-    "image": "images/pinesiskin.jpg",
+    "image": "images/birds/pinesiskin.jpg",
     "description": "Streaked finch with yellow wing flashes. Appears in winter, sometimes in large numbers.",
     "type": "Songbird",
     "season": "Irruptive",
@@ -2097,7 +2097,7 @@
   {
     "name": "Evening Grosbeak",
     "scientific": "Coccothraustes vespertinus",
-    "image": "images/eveninggrosbeak.jpg",
+    "image": "images/birds/eveninggrosbeak.jpg",
     "description": "Chunky finch with a thick bill and bold yellow markings. Rare and irregular in winter.",
     "type": "Songbird",
     "season": "Irruptive",
@@ -2109,7 +2109,7 @@
   {
     "name": "Rose-breasted Grosbeak",
     "scientific": "Pheucticus ludovicianus",
-    "image": "images/rosebreastedgrosbeak.jpg",
+    "image": "images/birds/rosebreastedgrosbeak.jpg",
     "description": "Black and white bird with a bright red chest. Common during migration and summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -2121,7 +2121,7 @@
   {
     "name": "Blue Grosbeak",
     "scientific": "Passerina caerulea",
-    "image": "images/bluegrosbeak.jpg",
+    "image": "images/birds/bluegrosbeak.jpg",
     "description": "Deep blue bird with chestnut wing bars. Found in brushy areas during summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -2133,7 +2133,7 @@
   {
     "name": "Dickcissel",
     "scientific": "Spiza americana",
-    "image": "images/dickcissel.jpg",
+    "image": "images/birds/dickcissel.jpg",
     "description": "Grassland bird with a yellow chest and black V. Common in Missouri fields during summer.",
     "type": "Songbird",
     "season": "Summer",
@@ -2145,7 +2145,7 @@
   {
     "name": "Common Yellowthroat",
     "scientific": "Geothlypis trichas",
-    "image": "images/commonyellowthroat.jpg",
+    "image": "images/birds/commonyellowthroat.jpg",
     "description": "Yellow bird with a black mask. Found in dense vegetation near water.",
     "type": "Songbird",
     "season": "Summer",
@@ -2157,7 +2157,7 @@
   {
     "name": "Bell’s Vireo",
     "scientific": "Vireo bellii",
-    "image": "images/bellsvireo.jpg",
+    "image": "images/birds/bellsvireo.jpg",
     "description": "Small gray songbird with a simple, repetitive song. Found in brushy habitats.",
     "type": "Songbird",
     "season": "Summer",
@@ -2169,7 +2169,7 @@
   {
     "name": "Warbling Vireo",
     "scientific": "Vireo gilvus",
-    "image": "images/warblingvireo.jpg",
+    "image": "images/birds/warblingvireo.jpg",
     "description": "Plain olive-gray bird with a continuous, musical song. Common in trees near water.",
     "type": "Songbird",
     "season": "Summer",
@@ -2181,7 +2181,7 @@
   {
     "name": "Fish Crow",
     "scientific": "Corvus ossifragus",
-    "image": "images/fishcrow.jpg",
+    "image": "images/birds/fishcrow.jpg",
     "description": "Similar to the American Crow but with a nasal call. Found near rivers and lakes.",
     "type": "Songbird",
     "season": "Resident",
@@ -2193,7 +2193,7 @@
   {
     "name": "Great-tailed Grackle",
     "scientific": "Quiscalus mexicanus",
-    "image": "images/greattailedgrackle.jpg",
+    "image": "images/birds/greattailedgrackle.jpg",
     "description": "Large blackbird with a long tail and loud calls. Expanding its range into Missouri.",
     "type": "Songbird",
     "season": "Resident",
@@ -2205,7 +2205,7 @@
   {
     "name": "Monk Parakeet",
     "scientific": "Myiopsitta monachus",
-    "image": "images/monkparakeet.jpg",
+    "image": "images/birds/monkparakeet.jpg",
     "description": "Bright green parrot that builds large stick nests. Found in small colonies in some cities.",
     "type": "Songbird",
     "season": "Resident",
@@ -2217,7 +2217,7 @@
   {
     "name": "House Sparrow",
     "scientific": "Passer domesticus",
-    "image": "images/housesparrow.jpg",
+    "image": "images/birds/housesparrow.jpg",
     "description": "Small brown bird commonly found around buildings and cities.",
     "type": "Songbird",
     "season": "Resident",
@@ -2229,7 +2229,7 @@
   {
     "name": "Rock Pigeon",
     "scientific": "Columba livia",
-    "image": "images/rockpigeon.jpg",
+    "image": "images/birds/rockpigeon.jpg",
     "description": "Common gray pigeon found in cities and towns.",
     "type": "Songbird",
     "season": "Resident",
@@ -2241,7 +2241,7 @@
   {
     "name": "Wild Turkey",
     "scientific": "Meleagris gallopavo",
-    "image": "images/wildturkey.jpg",
+    "image": "images/birds/wildturkey.jpg",
     "description": "Large ground bird with iridescent feathers.",
     "type": "Gamebird",
     "season": "Resident",
@@ -2253,7 +2253,7 @@
   {
     "name": "Northern Bobwhite",
     "scientific": "Colinus virginianus",
-    "image": "images/northernbobwhite.jpg",
+    "image": "images/birds/northernbobwhite.jpg",
     "description": "Small quail with a distinctive call.",
     "type": "Gamebird",
     "season": "Resident",

@@ -29,14 +29,14 @@ body::after {
 /* ==========================
    PAGE BACKGROUNDS
    ========================== */
-.home-page { background: url("images/indexbackground.png") no-repeat center center fixed; background-size: cover; }
-.about-page { background: url("images/aboutbackground.png") no-repeat center center fixed; background-size: cover; }
-.guide-page { background: url("images/guidebackground.png") no-repeat center center fixed; background-size: cover; }
-.habitats-page { background: url("images/habitatsbackground.png") no-repeat center center fixed; background-size: cover; }
-.security-page { background: url("images/stayingsafebackground.png") no-repeat center center fixed; background-size: cover; }
-.forests-page { background: url("images/forestbackground.png") no-repeat center center fixed; background-size: cover; }
-.wetlands-page { background: url("images/wetlandsbackground.png") no-repeat center center fixed; background-size: cover; }
-.prairies-page { background: url("images/prairiesbackground.png") no-repeat center center fixed; background-size: cover; }
+.home-page { background: url("images/backgrounds/homebackground.png") no-repeat center center fixed; background-size: cover; }
+.about-page { background: url("images/backgrounds/aboutbackground.png") no-repeat center center fixed; background-size: cover; }
+.guide-page { background: url("images/backgrounds/guidebackground.png") no-repeat center center fixed; background-size: cover; }
+.habitats-page { background: url("images/backgrounds/habitatsbackground.png") no-repeat center center fixed; background-size: cover; }
+.security-page { background: url("images/backgrounds/stayingsafebackground.png") no-repeat center center fixed; background-size: cover; }
+.forests-page { background: url("images/backgrounds/forestbackground.png") no-repeat center center fixed; background-size: cover; }
+.wetlands-page { background: url("images/backgrounds/wetlandsbackground.png") no-repeat center center fixed; background-size: cover; }
+.prairies-page { background: url("images/backgrounds/prairiesbackground.png") no-repeat center center fixed; background-size: cover; }
 
 /* ==========================
    SIDEBAR NAV
@@ -369,6 +369,6 @@ nav a:hover {
 .green { background: #3c7a5a; }
 .yellow { background: #f2b705; }
 .orange { background: #f28c28; }
-.lightgreen { background: #a8d5ba; }
+.lightgreen { background: #a8d5ba; 
     border-left: 6px solid #4e7c52;
 }
