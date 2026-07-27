@@ -29,7 +29,7 @@ body::after {
 /* ==========================
    PAGE BACKGROUNDS
    ========================== */
-.home-page { background: url("images/homebackground.png") no-repeat center center fixed; background-size: cover; }
+.home-page { background: url("images/indexbackground.png") no-repeat center center fixed; background-size: cover; }
 .about-page { background: url("images/aboutbackground.png") no-repeat center center fixed; background-size: cover; }
 .guide-page { background: url("images/guidebackground.png") no-repeat center center fixed; background-size: cover; }
 .habitats-page { background: url("images/habitatsbackground.png") no-repeat center center fixed; background-size: cover; }
