@@ -99,13 +99,6 @@ https://breannaruckle.github.io/Missouri-Ornithology-Project/
 
 ![Bird Information](screenshots/birds.png)
 
----
-
-### Staying Safe While Exploring Bird Websites
-
-![Web Safety Page](screenshots/safety.png)
-
----
 
 ## Project Structure
 
