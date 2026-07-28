@@ -91,13 +91,13 @@ https://breannaruckle.github.io/Missouri-Ornithology-Project/
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](images/home.png)
 
 ---
 
 ### Bird Information
 
-![Bird Information](screenshots/birds.png)
+![Bird Information](images/birds.png)
 
 
 ## Project Structure
